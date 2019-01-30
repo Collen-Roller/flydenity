@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Collen-Roller/arp/tree/master/images/Box.png width="350" title="ARP">
+  <img src="https://github.com/Collen-Roller/arp/tree/master/images/Box.png" width="350" title="ARP">
 </p>
 
 # <div align="center">Aircraft Registration Prefix (ARP) Dataset<br /><br />
