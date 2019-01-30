@@ -12,6 +12,9 @@ In total, the dataset contains a total of 408 unique regular expressions to desc
 ## Using the Data
 Of course, everyone has a programming language of choice. Mine for this effort was Python. I've including a wrapper class classed "ARP" which you can use to parse through the expressions.
 
+## Maritime
+Since the ITU International Call Sign prefexies are universal across Aircraft and Maritime Call Signs, we include functions within out API to parse Maritime Call Signs as well.
+
 ## Testing
 To evaluate how well the regular expressions work, we extracted unique tail numbers from a years worth of air traffic from FlightRadar24.com In total, we evaluated over 250k unique tail numbers against the regular expressions to minimize duplicate tags. In total, the parser was around 98% accurate in matching tail numbers to a specific country. Of course this could be improved, but that's why this library is open-source :)
 
@@ -25,7 +28,6 @@ All data was collected using open sources across the web, specifically using the
 - https://en.wikipedia.org/wiki/ITU_prefix
 - http://aircraft-registration-country-codes.blogspot.com/
 - https://www.itu.int/en/ITU-R/terrestrial/fmd/Pages/call_sign_series.aspx
-
 
 ## Country Codes Extracted From
 - https://countrycode.org/
@@ -72,37 +74,6 @@ Some of these countries  or regions could have a standard that is not within thi
 - U.S. Virgin Islands (VI) 
 - Wallis and Futuna (WF)
 - Western Sahara (EH)
-
-## Dashes
-#### Countries that do not use dashes (with dashes in the id)
-- Anguilla (VP-A)
-- Bermuda (VP-B, VQ-B, VR-B)
-- British Virgin Islands (VP-L)
-- Cayman Islands (VP-C)
-- Falk Islands (VP-F)
-- Faroe Islands (OY-H)
-- French Poly (F-OH)
-- Gibraltar (VP-G)
-- Greenland (OY-H)
-- Hong Kong (B-H, B-K, B-L)
-- Macau (B-M)
-- Montserrat (VP-M)
-- Palestinian Authority (SU-Y)
-- Reunion Island (F-OD)
-- Saint Helena (VQ-H)
-- Turks and Caicos (VQ-T)
-
-#### Countries that do not use dashes (without dashes in the id)
-- Japan (JA)
-- South Korea (HL)
-- United States 
-- Ukraine for numbers between 10K and 99K
-- Uzbekistan
-- Venezuela
-
-#### Countries with dash in suffix
-- Macedonia (Z3)
-
 
 
 #### Contact
