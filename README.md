@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/Collen-Roller/arp/tree/master/images/Box.png" alt="APR" height="100"></div>
+<div align="center"><img src="https://github.com/Collen-Roller/arp/tree/master/images/Box.png" alt="APR"></div>
 
 # <div align="center">Aircraft Registration Prefix (ARP) Dataset<br /><br />
 
