@@ -1,6 +1,9 @@
-# Aircraft Registration Prefix (ARP) Dataset
+<div align="center"><img src="https://github.com/Collen-Roller/arp/tree/master/images/box.png" alt="APR" height="100"></div>
 
-This dataset contains country specific aircraft registration code expressions separated by country post 1929. The database also contains a description of each codeset with both 2 and 3 letter ISO country codes following the ISO-3166 standard.
+# <div align="center">Aircraft Registration Prefix (ARP) Dataset<br /><br />
+
+This dataset contains a set of regular expressions generated from the International Telecommunications Union (ITU) International Call Sign prefexies. The registration codes in this dataset are separated by country post The Paris Convention in 1929. The database also contains a description of each codeset with 2 and 3 letter ISO country codes following the ISO-3166 standard. 
+
 ## Stats
 In total, the dataset contains a total of 408 unique regular expressions to describe aircraft tail numbers across 217 unique countries. 
 
@@ -19,6 +22,8 @@ All data was collected using open sources across the web, specifically using the
 - https://www.cia.gov/library/publications/the-world-factbook/fields/2270.html
 - https://en.wikipedia.org/wiki/ITU_prefix
 - http://aircraft-registration-country-codes.blogspot.com/
+- https://www.itu.int/en/ITU-R/terrestrial/fmd/Pages/call_sign_series.aspx
+
 
 ## Country Codes Extracted From
 - https://countrycode.org/
