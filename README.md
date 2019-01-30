@@ -1,7 +1,6 @@
 # Aircraft Registration Prefix (ARP) Dataset
 
-This dataset contains country specific aircraft registration code expressions separated by country. The database also contains a description of each codeset with both 2 and 3 letter ISO country codes following the ISO-3166 standard.
-
+This dataset contains country specific aircraft registration code expressions separated by country post 1929. The database also contains a description of each codeset with both 2 and 3 letter ISO country codes following the ISO-3166 standard.
 ## Stats
 In total, the dataset contains a total of 408 unique regular expressions to describe aircraft tail numbers across 217 unique countries. 
 
