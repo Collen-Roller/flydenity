@@ -1,0 +1,4 @@
+name,description,callsign,suffix,regex
+International Civil Aviation Organization,general,['4Y'],['AAA-ZZZ'],"(4Y)(-{0,1}(([A-Z][A-Z][A-Z])|([A-Z0-9]{1,4}))){0,1}$"
+United Nations,general,['4U'],['AAA-ZZZ'],"(4U)(-{0,1}(([A-Z][A-Z][A-Z])|([A-Z0-9]{1,4}))){0,1}$"
+World Meteorological Organization,general,['C7'],['AAA-ZZZ'],"(C7)(-{0,1}(([A-Z][A-Z][A-Z])|([A-Z0-9]{1,4}))){0,1}$"
