@@ -1,4 +1,6 @@
-![alt tag](https://github.com/Collen-Roller/arp/tree/master/images/Box.png)
+<p align="center">
+  <img src="/images/Box.png" width="350" title="ARP">
+</p>
 
 # <div align="center">Aircraft Registration Prefix (ARP) Dataset<br /><br />
 
