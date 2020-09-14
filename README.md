@@ -2,24 +2,43 @@
   <img src="/images/Box.png" width="350" title="ARP">
 </p>
 
-# <div align="center">Aircraft Registration Prefix (ARP) Parser + Dataset<br /><br />
+# <div align="center">Flydenity<br /><br />
 
-This dataset contains a set of regular expressions generated from the International Telecommunications Union (ITU) International Call Sign prefexies. The registration codes in this dataset are separated by country post The Paris Convention in 1929. The database also contains a description of each codeset with 2 and 3 letter ISO country codes following the ISO-3166 standard. 
+Flydenity is a callsign identification library to help match tail numbers or
+callsigns to origin nations. The library is a python wrapper on top of a curated
+dataset containing a set of regular expressions generated from the
+International Telecommunications Union (ITU) International Call Sign prefexies.
+The registration codes in this dataset are separated by country post The Paris
+Convention in 1929. The database also contains a description of each codeset
+with 2 and 3 letter ISO country codes following the ISO-3166 standard.
+
+## Running the library
 
 ## Stats
-In total, the dataset contains a total of 408 unique regular expressions to describe aircraft tail numbers across 217 unique countries. 
+In total, the dataset contains a total of 408 unique regular expressions to
+describe aircraft tail numbers across 217 unique countries.
 
 ## Using the Data
-Of course, everyone has a programming language of choice. Mine for this effort was Python. I've including a wrapper class classed "ARP" which you can use to parse through the expressions.
+Of course, everyone has a programming language of choice. Mine for this effort
+was Python. I've including a wrapper class classed "ARP" which you can use to
+parse through the expressions.
 
 ## Maritime
-Since the ITU International Call Sign prefexies are universal across Aircraft and Maritime Call Signs, we include functions within out API to parse Maritime Call Signs as well.
+Since the ITU International Call Sign prefexies are universal across Aircraft
+and Maritime Call Signs, we include functions within out API to parse Maritime
+Call Signs as well.
 
 ## Testing
-To evaluate how well the regular expressions work, we extracted unique tail numbers from a years worth of air traffic from FlightRadar24.com In total, we evaluated over 250k unique tail numbers against the regular expressions to minimize duplicate tags. In total, the parser was around 98% accurate in matching tail numbers to a specific country. Of course this could be improved, but that's why this library is open-source :)
+To evaluate how well the regular expressions work, we extracted unique tail
+numbers from a years worth of air traffic from FlightRadar24.com In total,
+we evaluated over 250k unique tail numbers against the regular expressions
+to minimize duplicate tags. In total, the parser was around 98% accurate in
+matching tail numbers to a specific country. Of course this could be
+improved, but that's why this library is open-source :)
 
 ## Registration Numbers
-All data was collected using open sources across the web, specifically using the links below.
+All data was collected using open sources across the web, specifically using
+the links below.
 - https://en.wikipedia.org/wiki/Aircraft_registration
 - https://en.wikipedia.org/wiki/Call_sign
 - https://en.wikipedia.org/wiki/Airline_codes#ICAO_airline_designator
@@ -34,14 +53,15 @@ All data was collected using open sources across the web, specifically using the
 - https://github.com/datasets/country-codes
 
 ## Datasets
-I constructed two datasets (as of right now) for this effort. 
+I constructed two datasets (as of right now) for this effort.
 1. processed_itu_countries_regex.csv
 2. processed_itu_organizations_regex.csv
 
 
 ## Countries, Regions or Territories with No Standard
 #### Compared to country list at https://countrycode.org/, there are a total of that are not included
-Some of these countries  or regions could have a standard that is not within this database. Please update the list if you make changes. 
+Some of these countries  or regions could have a standard that is not within
+this database. Please update the list if you make changes.
 - Aland Islands (AX)
 - American Samoa (AS)
 - Antarctica(AQ)
@@ -71,12 +91,12 @@ Some of these countries  or regions could have a standard that is not within thi
 - Svalbard and Jan Mayen Islands (SJ)
 - Tokelau (TK)
 - U.S. Outlying Islands (UM)
-- U.S. Virgin Islands (VI) 
+- U.S. Virgin Islands (VI)
 - Wallis and Futuna (WF)
 - Western Sahara (EH)
 
 
 #### Contact
 
-Collen Roller 
+Collen Roller
 collen.roller@gmail.com

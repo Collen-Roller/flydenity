@@ -15,7 +15,7 @@ with open(path.join(path.dirname(path.abspath(__file__)),
                     "requirements.txt")) as requirement_file:
     install_requirements = requirement_file.read().split("/n")
 
-name = 'arp'
+name = 'flydenity'
 version = getenv('VERSION')
 release = version
 
@@ -23,7 +23,7 @@ setup(
     name=name,
     version=version,
     release=release,
-    description="Aircraft Registration Prefix (ARP) Parser",
+    description="Flydenity is an aircraft callsign identification library. Parsers aircraft registration prefix to identify nation of origin",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Collen-Roller/arp",
@@ -50,7 +50,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'arp = arp.__main__:main'
+            'flydenity = flydenity.__main__:main'
         ]
     },
     include_package_data=True # Including package data (IMPORTANT)

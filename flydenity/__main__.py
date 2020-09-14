@@ -3,17 +3,16 @@ __main__.py
 Collen Roller
 collen.roller@gmail.com
 
-Creates the CLI application for ARP
+Creates the CLI application for Flydenity
 """
 
 import sys
 import json
-#import arp.parser
 
 def main():
     """Main of CLI app
     """
-    from arp import parser
+    from flydenity import parser
 
     parser = parser.ARParser()
     for tail in sys.argv[1:]:
