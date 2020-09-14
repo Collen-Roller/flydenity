@@ -4,6 +4,10 @@
 
 # <div align="center">Flydenity<br /><br />
 
+[![PyPI version](https://badge.fury.io/py/flydenity.svg)](https://badge.fury.io/py/flydenity)
+
+# Flydenity - Aircraft Identification Library
+
 Flydenity is a callsign identification library to help match tail numbers or
 callsigns to origin nations. The library is a python wrapper on top of a curated
 dataset containing a set of regular expressions generated from the
@@ -11,6 +15,14 @@ International Telecommunications Union (ITU) International Call Sign prefixes.
 The registration codes in this dataset are separated by country post The Paris
 Convention in 1929. The database also contains a description of each codeset
 with 2 and 3 letter ISO country codes following the ISO-3166 standard.
+
+## Installation
+
+Flydenity is on PyPi, simply install it with PIP
+
+  ```bash
+  pip3 install flydenity
+  ```
 
 ## Running the library
 
