@@ -1,3 +1,5 @@
+include .env
+
 tag:
 	git tag -a v${VERSION} -m "version ${VERSION} release"
 	git push origin --tags
@@ -5,7 +7,7 @@ tag:
 release:
 	clean
 	python3 setup.py sdist bdist_wheel
-	twine upload --repository di2e dist/*
+	twine upload --repository pypi dist/*
 
 clean:
 	find . -name '*.pyc' -exec rm -f {} +
