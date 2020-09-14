@@ -7,7 +7,7 @@
 Flydenity is a callsign identification library to help match tail numbers or
 callsigns to origin nations. The library is a python wrapper on top of a curated
 dataset containing a set of regular expressions generated from the
-International Telecommunications Union (ITU) International Call Sign prefexies.
+International Telecommunications Union (ITU) International Call Sign prefixes.
 The registration codes in this dataset are separated by country post The Paris
 Convention in 1929. The database also contains a description of each codeset
 with 2 and 3 letter ISO country codes following the ISO-3166 standard.
@@ -16,14 +16,18 @@ with 2 and 3 letter ISO country codes following the ISO-3166 standard.
 
 To run, you can simply include it in your python library using the following
 
+  ```python
   from flydenity import parser
   identifer = parser.ARParser()
   nation_of_origin = ["AF1234"]
+  ```
 
 You can also run it from the command line
 
+  ```bash
   $ flydenity AF1234
   {'AF1234': [{'nation': 'United States', 'description': 'general', 'iso codes': "['US', 'USA']"}]}
+  ```
 
 ## Stats
 In total, the dataset contains a total of 408 unique regular expressions to
