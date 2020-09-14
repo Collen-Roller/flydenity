@@ -1,17 +1,30 @@
+"""
+
+arp.py
+Collen Roller
+collen.roller@gmail.com
+
+Main parser for Regexs that exist within the dataset
+"""
+
 import pandas as pd
 import ast
+import os
 import re
 import sys
 
-class ARP:
-    
-    dataset_files = {"countries":"processed_itu_countries_regex.csv",
-                     "organizations":"processed_itu_organizations_regex.csv"}
-    
+class ARParser():
+
+
+    dataset_files = {"countries":os.path.join(os.path.dirname(__file__),
+                     "processed_itu_countries_regex.csv"),
+                     "organizations":os.path.join(os.path.dirname(__file__),
+                     "processed_itu_organizations_regex.csv")}
+
     def __init__(self):
         self.datasets_loaded = False
         self.load_datasets(self.dataset_files)
-            
+
     def load_datasets(self, files):
         try:
             if files is not None:
@@ -20,11 +33,11 @@ class ARP:
                     self.dfs[key] = pd.read_csv(f)
                 self.datasets_loaded = True
             else:
-                self.print_dataset_error()        
+                self.print_dataset_error()
         except:
             self.print_dataset_error()
-            
-    def parse(self, callsign): 
+
+    def parse(self, callsign):
         res = []
         if not self.datasets_loaded:
             self.load_datasets(self.dataset_files)
@@ -36,15 +49,12 @@ class ARP:
                     if result is not None:
                         #print("Success!")
                         #print(entry)
-                        res.append({"nation":entry["nation"],"description":entry["description"],"iso codes":entry["iso codes"]})
-                        
+                        res.append({"nation":entry["nation"],
+                                    "description":entry["description"],
+                                    "iso codes":entry["iso codes"]})
+
         return res
-    
+
     def print_dataset_error(self):
         print("Can't identify dataset, try loading it manually")
         print("Use load_dataset(<tags.csv>)")
-
-if __name__ == "__main__":
-    arp = ARP()
-    for tail in sys.argv[1:]:
-        print("%s: %s" % (tail,arp.parse(tail)))
