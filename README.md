@@ -14,6 +14,17 @@ with 2 and 3 letter ISO country codes following the ISO-3166 standard.
 
 ## Running the library
 
+To run, you can simply include it in your python library using the following
+
+  from flydenity import parser
+  identifer = parser.ARParser()
+  nation_of_origin = ["AF1234"]
+
+You can also run it from the command line
+
+  $ flydenity AF1234
+  {'AF1234': [{'nation': 'United States', 'description': 'general', 'iso codes': "['US', 'USA']"}]}
+
 ## Stats
 In total, the dataset contains a total of 408 unique regular expressions to
 describe aircraft tail numbers across 217 unique countries.
