@@ -43,7 +43,7 @@ You can also run it from the command line
 
   ```bash
   $ flydenity AF1234
-  {'AF1234': [{'nation': 'United States', 'description': 'general', 'iso codes': "['US', 'USA']"}]}
+  {'AF1234': [{'nation': 'United States', 'description': 'general', 'iso2': 'US', 'iso3': 'USA'}]}
   ```
 
 ## Stats
