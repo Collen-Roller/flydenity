@@ -49,9 +49,11 @@ class ARParser():
                     if result is not None:
                         #print("Success!")
                         #print(entry)
+                        codes = ast.literal_eval(entry["iso codes"])
+                        print(codes)
                         res.append({"nation":entry["nation"],
                                     "description":entry["description"],
-                                    "iso codes":entry["iso codes"]})
+                                    "iso codes":codes})
 
         return res
 
