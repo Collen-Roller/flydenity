@@ -1,2 +1,1 @@
-pandas>=0.25.0
 python-dotenv>=0.14.0
