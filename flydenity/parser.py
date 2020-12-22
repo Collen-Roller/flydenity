@@ -44,6 +44,7 @@ class ARParser():
                         raise ValueError(f"Input file for {dataset_type} '{DATASET_FILES[dataset_type]}' is corrupt.")
                     
                     data['description'] = raw_data['description']
+                    data['priority'] = raw_data['priority']
                     data['callsigns'] = [callsign[1:-1] for callsign in raw_data['callsign'][1:-1].split(', ')]
                     data['suffixes'] = [suffix[1:-1] for suffix in raw_data['suffix'][1:-1].split(', ')]
                     data['regex'] = re.compile(raw_data['regex'])
@@ -72,28 +73,37 @@ class ARParser():
             return None
 
         # match the string with the datasets
-        country_matches = []
-        organization_matches = []
+        matches_by_priority = {}
         for data in datasets:
             match = data['strict_regex'].match(string) if strict is True else data['regex'].match(string)
             if match:
-                if data['type'] == 'country':
-                    country_matches.append({
-                        'nation': data['nation'],
-                        'description': data['description'],
-                        'iso2': data['iso2'],
-                        'iso3': data['iso3']
-                    })
-                elif data['type'] == 'organization':
-                    organization_matches.append({
-                        'name': data['name'],
-                        'description': data['description']
-                    })
+                if data['priority'] not in matches_by_priority:
+                    matches_by_priority[data['priority']] = [data]
+                else:
+                    matches_by_priority[data['priority']].append(data)
 
-        # return matches we found
-        if len(country_matches) > 0 or len(organization_matches) > 0:
-            return country_matches + organization_matches
+        # from all matches we found return the match with the highest priority
+        if len(matches_by_priority) > 0:
+            best_matches = matches_by_priority[max(matches_by_priority.keys())]
+            if len(best_matches) > 1:
+                print(f"Warning: multiple matches with same priority found")
+            
+            best_match = best_matches[0]
+            if best_match['type'] == 'country':
+                return {
+                        'nation': best_match['nation'],
+                        'description': best_match['description'],
+                        'iso2': best_match['iso2'],
+                        'iso3': best_match['iso3']
+                    }
+            elif best_match['type'] == 'organization':
+                return {
+                    'name': best_match['name'],
+                    'description': best_match['description']
+                }
 
         # return None if the string doesn't match with any of the datasets
         else:
             return None
+
+
