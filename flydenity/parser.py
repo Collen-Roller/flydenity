@@ -51,7 +51,7 @@ class ARParser():
                     data['regex'] = re.compile(raw_data['regex'])
                     data['icao24bit_from'] = raw_data['icao24bit_from']
                     data['icao24bit_to'] = raw_data['icao24bit_to']
-                    data['icao24bit_prefixes'] = [prefix[1:-1] for prefix in raw_data['icao24bit_prefix'][1:-1].split(', ')]
+                    data['icao24bit_prefixes'] = [prefix[1:-1] for prefix in raw_data['icao24bit_prefix'][1:-1].split(', ')] if len(raw_data['icao24bit_prefix']) > 0 else []
 
                     strict_regex = raw_data['regex'].replace('-{0,1}', '\-').replace('{0,1}$', '$')
                     data['strict_regex'] = re.compile(strict_regex)
@@ -68,18 +68,18 @@ class ARParser():
         self.min_callsign_len = min([len(callsign) for callsign in self.callsigns.keys()])
         self.max_callsign_len = max([len(callsign) for callsign in self.callsigns.keys()])
 
-    def _best_match_to_dict(self, best_match):
-        if best_match['type'] == 'country':
+    def _data_to_result(self, data):
+        if data['type'] == 'country':
             return {
-                    'nation': best_match['nation'],
-                    'description': best_match['description'],
-                    'iso2': best_match['iso2'],
-                    'iso3': best_match['iso3']
-                }
-        elif best_match['type'] == 'organization':
+                'nation': data['nation'],
+                'description': data['description'],
+                'iso2': data['iso2'],
+                'iso3': data['iso3']
+            }
+        elif data['type'] == 'organization':
             return {
-                'name': best_match['name'],
-                'description': best_match['description']
+                'name': data['name'],
+                'description': data['description']
             }
 
     def _parse_registration(self, string, strict):
@@ -109,26 +109,24 @@ class ARParser():
             if len(best_matches) > 1:
                 print(f"Warning: multiple matches with same priority found")
 
-            return self._best_match_to_dict(best_matches[0])
+            return self._data_to_result(best_matches[0])
 
         # return None if the string doesn't match with any of the datasets
         else:
             return None
 
     def _parse_icao24bit(self, string, strict):
+        # check if input is correct
         if strict and not re.match('[0-9A-F]{6}', string):
             print(f"Warning: ICAO 24bit must be hexadecimal with length of 6 chars")
             return None
 
-        best_match = None
+        # return the match (there is at most one)
         for prefix in [string[0:i+1] for i in range(len(string))]:
             if prefix in self.icao24bit:
-                best_match = self.icao24bit[prefix]
+                return self._data_to_result(self.icao24bit[prefix])
 
-        if best_match is None:
-            return None
-        else:
-            return self._best_match_to_dict(best_match)
+        return None
 
     def parse(self, string, strict=False, icao24bit=False):
         if icao24bit is False:
