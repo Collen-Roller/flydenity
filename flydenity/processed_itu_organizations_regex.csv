@@ -1,4 +1,4 @@
-name,description,priority,callsign,suffix,regex
-International Civil Aviation Organization,general,0,['4Y'],['AAA-ZZZ'],"(4Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-United Nations,general,0,['4U'],['AAA-ZZZ'],"(4U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-World Meteorological Organization,general,0,['C7'],['AAA-ZZZ'],"(C7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
+name,description,priority,callsign,suffix,regex,icao24bit_from,icao24bit_to,icao24bit_prefix
+International Civil Aviation Organization,general,0,['4Y'],['AAA-ZZZ'],"(4Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+United Nations,general,0,['4U'],['AAA-ZZZ'],"(4U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+World Meteorological Organization,general,0,['C7'],['AAA-ZZZ'],"(C7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,

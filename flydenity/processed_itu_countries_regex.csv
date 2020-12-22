@@ -1,409 +1,409 @@
-nation,description,priority,iso codes,callsign,suffix,regex
-Afghanistan,general,0,"['AF', 'AFG']","['T6', 'YA']",['AAA-ZZZ'],"^(T6|YA)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Albania,general,0,"['AL', 'ALB']",['ZA'],['AAA-ZZZ'],"^(ZA)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Algeria,civilian,1,"['DZ', 'DZA']","['7R', '7T', '7U', '7V', '7W', '7X', '7Y']",['VAA-VZZ'],"^(7R|7T|7U|7V|7W|7X|7Y)(-{0,1}(V[A-Z]{2})){0,1}$"
-Algeria,military,1,"['DZ', 'DZA']","['7R', '7T', '7U', '7V', '7W', '7X', '7Y']",['WAA-WZZ'],"^(7R|7T|7U|7V|7W|7X|7Y)(-{0,1}(W[A-Z]{2})){0,1}$"
-Andorra,general,0,"['AD', 'AND']",['C3'],['AAA-ZZZ'],"^(C3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Angola,general,0,"['AO', 'AGO']","['D2', 'D3']",['AAA-ZZZ'],"^(D2|D3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Anguilla,general,0,"['AI', 'AIA']",['VP-A'],['AA-ZZ'],"^(VP-A)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Antigua and Barbuda,general,0,"['AG', 'ATG']",['V2'],['AAA-ZZZ'],"^(V2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Argentina,general,0,"['AR', 'ARG']","['AY', 'AZ', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'L9', 'LO', 'LP', 'LR', 'LS', 'LT', 'LU', 'LV', 'LW']",['AAA-ZZZ'],"^(AY|AZ|L2|L3|L4|L5|L6|L7|L8|L9|LO|LP|LR|LS|LT|LU|LV|LW)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Argentina,military,1,"['AR', 'ARG']",['LQ'],['AAA-ZZZ'],"^(LQ)(-{0,1}([A-Z]{3})){0,1}$"
-Armenia,general,0,"['AM', 'ARM']",['EK'],['10000-99999'],"^(EK)(-{0,1}(([1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Aruba,general,0,"['AW', 'ABW']",['P4'],['AAA-ZZZ'],"^(P4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Australia,general,0,"['AU', 'AUS']","['AX', 'VH', 'VI', 'VJ', 'VK', 'VL', 'VM', 'VN', 'VZ']",['AAA-ZZZ'],"^(AX|VH|VI|VJ|VK|VL|VM|VN|VZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Austria,general,0,"['AT', 'AUT']",['OE'],['AAA-KZZ'],"^(OE)(-{0,1}(([A-K][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Austria,offical use,1,"['AT', 'AUT']",['OE'],['BAA-BZZ'],"^(OE)(-{0,1}(B[A-Z]{2})){0,1}$"
-Austria,scheduled airlines,1,"['AT', 'AUT']",['OE'],['LAA-LZZ'],"^(OE)(-{0,1}(L[A-Z]{2})){0,1}$"
-Austria,test registrations,1,"['AT', 'AUT']",['OE'],['VAA-VZZ'],"^(OE)(-{0,1}(V[A-Z]{2})){0,1}$"
-Austria,amphibian and sea planes,1,"['AT', 'AUT']",['OE'],['WAA-WZZ'],"^(OE)(-{0,1}(W[A-Z]{2})){0,1}$"
-Austria,helicopters,1,"['AT', 'AUT']",['OE'],['XAA-XZZ'],"^(OE)(-{0,1}(X[A-Z]{2})){0,1}$"
-Austria,gliders,1,"['AT', 'AUT']",['OE'],['0001-5999'],"^(OE)(-{0,1}([0-5][0-9][0-9][1-9])){0,1}$"
-Austria,moter gliders,1,"['AT', 'AUT']",['OE'],['9000-9999'],"^(OE)(-{0,1}(9[0-9]{3})){0,1}$"
-Azerbaijan,general,0,"['AZ', 'AZE']","['4J', '4K']","['AZ1-AZ999', '10000-99999']","^(4J|4K)(-{0,1}(([A-Z]{2}[1-9][0-9]{0,2}|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Bahamas,general,0,"['BS', 'BHS']",['C6'],['AAA-ZZZ'],"^(C6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Bahrain,general,0,"['BH', 'BHR']",['A9C'],"['AA-ZZ', 'AAA-ZZZ']","^(A9C)(-{0,1}(([A-Z]{2}|[A-Z]{3})|[A-Z0-9]{1,4})){0,1}$"
-Bangladesh,general,0,"['BD', 'BGD']","['S2', 'S3']",['AAA-ZZZ'],"^(S2|S3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Barbados,general,0,"['BB', 'BRB']",['8P'],['AAA-ZZZ'],"^(8P)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Belarus,Soviet Union registrations,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['10000-99999'],"^(EU|EV|EW)(-{0,1}([1-9][0-9]{4})){0,1}$"
-Belarus,general,0,"['BY', 'BLR']","['EU', 'EV', 'EW']",['100AA-999ZZ'],"^(EU|EV|EW)(-{0,1}(([1-9][0-9][0-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Belarus,Boeing 737,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['200PA-299PA'],"^(EU|EV|EW)(-{0,1}(2[0-9][0-9]PA)){0,1}$"
-Belarus,CRJ aircraft,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['100PJ-299PJ'],"^(EU|EV|EW)(-{0,1}([1-2][0-9][0-9]PJ)){0,1}$"
-Belarus,official use,1,"['BY', 'BLR']","['EU', 'EV', 'EW']","['001DA', '001PA', '001PB', '85815']","^(EU|EV|EW)(-{0,1}(001DA|001PA|001PB|85815)){0,1}$"
-Belarus,balloons,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['0001L-9999L'],"^(EU|EV|EW)(-{0,1}([0-9]{3}[1-9]L)){0,1}$"
-Belgium,general,0,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']","['AAA-PZZ', 'RAA-ZZZ']","^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}(([A-P][A-Z]{2}|[R-Z][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Belgium,Belgian national airline Sabena,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['SAA-SZZ'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}(S[A-Z]{2})){0,1}$"
-Belgium,balloons,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['BAA-BZZ'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}(B[A-Z]{2})){0,1}$"
-Belgium,gliders,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['YAA-ZAA'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}([Y-Z]AA)){0,1}$"
-Belgium,home-built aircraft,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['01-499'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}([0-4][1-9][0-9]|[0-4][1-9])){0,1}$"
-Belgium,microlights,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']","['501-999', 'A01-Z99']","^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}([5-9][0-9][1-9]|[A-Z][0-9][1-9])){0,1}$"
-Belize,general,0,"['BZ', 'BLZ']",['V3'],['AAA-ZZZ'],"^(V3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Benin,general,0,"['BJ', 'BEN']",['TY'],['AAA-ZZZ'],"^(TY)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Bermuda,general,0,"['BM', 'BMU']","['VP-B', 'VQ-B', 'VR-B']",['AA-ZZ'],"^(VP-B|VQ-B|VR-B)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Bhutan,general,0,"['BT', 'BTN']",['A5'],['AAA-ZZZ'],"^(A5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Bolivia,general,0,"['BO', 'BOL']",['CP'],['1000-9999'],"^(CP)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$"
-Bosnia and Herzegovina,general,0,"['BA', 'BIH']",['E7'],['AAA-ZZZ'],"^(E7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Botswana,general,0,"['BW', 'BWA']","['A2', '8O']",['AAA-ZZZ'],"^(A2|8O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Brazil,microlights and experimental LSA aircraft,1,"['BR', 'BRA']",['PU'],['AAA-ZZZ'],"^(PU)(-{0,1}([A-Z]{3})){0,1}$"
-Brazil,general,0,"['BR', 'BRA']","['PP', 'PQ', 'PS', 'PV', 'PW', 'PX', 'PY', 'ZV', 'ZW', 'ZX', 'ZY', 'ZZ']",['AAA-ZZZ'],"^(PP|PQ|PS|PV|PW|PX|PY|ZV|ZW|ZX|ZY|ZZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Brazil,general,0,"['BR', 'BRA']","['PR', 'PT']",['AAA-YZZ'],"^(PR|PT)(-{0,1}(([A-Y][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Brazil,experimental non-LSA aircraft,1,"['BR', 'BRA']","['PR', 'PT']",['ZAA-ZZZ'],"^(PR|PT)(-{0,1}(Z[A-Z]{2})){0,1}$"
-British Virgin Islands,general,0,"['VG', 'VGB']",['VP-L'],['AA-ZZ'],"^(VP-L)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Brunei,general,0,"['BN', 'BRN']",['V8'],"['AAA-ZZZ', 'AA1-ZZ9', '001-999']","^(V8)(-{0,1}(([A-Z]{3}|[A-Z]{2}[1-9]|[0-9][0-9][1-9])|[A-Z0-9]{1,4})){0,1}$"
-Bulgaria,general,0,"['BG', 'BGR']",['LZ'],['AAA-YZZ'],"^(LZ)(-{0,1}(([A-Y][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Burkina Faso,general,0,"['BF', 'BFA']",['XT'],['AAA-ZZZ'],"^(XT)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Burundi,general,0,"['BI', 'BDI']",['9U'],['AAA-ZZZ'],"^(9U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Cambodia,general,0,"['KH', 'KHM']",['XU'],['AAA-ZZZ'],"^(XU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Cameroon,general,0,"['CM', 'CMR']",['TJ'],['AAA-ZZZ'],"^(TJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Canada,general,0,"['CA', 'CAN']",['C'],"['FAAA-FZZZ', 'GAAA-GZZZ']","^(C)(-{0,1}((F[A-Z]{3}|G[A-Z]{3})|[A-Z0-9]{1,4})){0,1}$"
-Canada,ultralight aeroplanes,1,"['CA', 'CAN']",['C'],['IAAA-IZZZ'],"^(C)(-{0,1}(I[A-Z]{3})){0,1}$"
-Canada,Newfoundland prior to merging with Canada in 1949,1,"['CA', 'CAN']",['VO'],['AAA-ZZZ'],"^(VO)(-{0,1}([A-Z]{3})){0,1}$"
-Canada,general,0,"['CA', 'CAN']","['C', 'CF', 'CG', 'CH', 'CJ', 'CK', 'CY', 'CZ', 'VA', 'VB', 'VC', 'VD', 'VE', 'VF', 'VG', 'VX', 'VY', 'XJ', 'XK', 'XL', 'XM', 'XN', 'XO', 'VO']",['AAA-ZZZ'],"^(C|CF|CG|CH|CJ|CK|CY|CZ|VA|VB|VC|VD|VE|VF|VG|VX|VY|XJ|XK|XL|XM|XN|XO|VO)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Cape Verde or Cabo Verde,general,0,"['CV', 'CPV']",['D4'],['AAA-ZZZ'],"^(D4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Cayman Islands,general,0,"['KY', 'CYM']",['VP-C'],['AA-ZZ'],"^(VP-C)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Central African Republic,general,0,"['CF', 'CAF']",['TL'],['AAA-ZZZ'],"^(TL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Chad,general,0,"['TD', 'TCD']",['TT'],['AAA-ZZZ'],"^(TT)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Chile,general,0,"['CL', 'CHL']","['CA', 'CB', 'CC', 'CD', 'CE', 'XQ', 'XR', '3G']",['AAA-ZZZ'],"^(CA|CB|CC|CD|CE|XQ|XR|3G)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Chile,commercial aircraft,1,"['CL', 'CHL']",['CC'],['CAA-CZZ'],"^(CC)(-{0,1}(C[A-Z]{2})){0,1}$"
-Chile,Chile's Aviation Directorate planes including those from the Aviation Museum,1,"['CL', 'CHL']",['CC'],['DAA-DZZ'],"^(CC)(-{0,1}(D[A-Z]{2})){0,1}$"
-Chile,government aircraft,1,"['CL', 'CHL']",['CC'],['EAA-EZZ'],"^(CC)(-{0,1}(E[A-Z]{2})){0,1}$"
-Chile,aero clubs northern zone,1,"['CL', 'CHL']",['CC'],['NAA-NZZ'],"^(CC)(-{0,1}(N[A-Z]{2})){0,1}$"
-Chile,aero clubs central zone,1,"['CL', 'CHL']",['CC'],"['KAA-KZZ', 'LAA-LZZ']","^(CC)(-{0,1}(K[A-Z]{2}|L[A-Z]{2})){0,1}$"
-Chile,aero clubs southern zone,1,"['CL', 'CHL']",['CC'],"['SAA-SZZ', 'TAA-TZZ']","^(CC)(-{0,1}(S[A-Z]{2}|T[A-Z]{2})){0,1}$"
-Chile,aero clubs Patagonian area,1,"['CL', 'CHL']",['CC'],['MAA-MZZ'],"^(CC)(-{0,1}(M[A-Z]{2})){0,1}$"
-Chile,aero clubs private aircraft,1,"['CL', 'CHL']",['CC'],['PAA-PZZ'],"^(CC)(-{0,1}(P[A-Z]{2})){0,1}$"
-China,general,0,"['CN', 'CHN']","['B', 'XS', '3H', '3I', '3J', '3K', '3L', '3M', '3N', '3O', '3P', '3Q', '3R', '3S', '3T', '3U', 'VR', 'XX']","['0000-9999', '000A-999Z', '00AA-99ZZ']","^(B|XS|3H|3I|3J|3K|3L|3M|3N|3O|3P|3Q|3R|3S|3T|3U|VR|XX)(-{0,1}(([0-9]{4}|[0-9]{3}[A-Z]|[0-9][0-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Colombia,microlights,1,"['CO', 'COL']",['HJ'],['1000A-9999Z'],"^(HJ)(-{0,1}([1-9][0-9]{3}[A-Z])){0,1}$"
-Colombia,general,0,"['CO', 'COL']","['HK', '5J', '5K']",['1000A-9999Z'],"^(HK|5J|5K)(-{0,1}(([1-9][0-9]{3}[A-Z])|[A-Z0-9]{1,4})){0,1}$"
-Comoros,general,0,"['KM', 'COM']",['D6'],['AAA-ZZZ'],"^(D6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Congo Democratic Republic,general,0,"['CD', 'COD']","['9O', '9P', '9Q', '9R', '9S', '9T']",['AAA-ZZZ'],"^(9O|9P|9Q|9R|9S|9T)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Congo Republic,general,0,"['CG', 'COG']",['TN'],['AAA-ZZZ'],"^(TN)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Cook Islands,general,0,"['CK', 'COK']",['E5'],['AAA-ZZZ'],"^(E5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Costa Rica,general,0,"['CR', 'CRI']","['TE', 'TI']",['AAA-ZZZ'],"^(TE|TI)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Costa Rica,ultralight aircraft,1,"['CR', 'CRI']","['TE', 'TI']",['000-999'],"^(TE|TI)(-{0,1}([0-9]{3})){0,1}$"
-Croatia,general,0,"['HR', 'HRV']",['9A'],['AAA-ZZZ'],"^(9A)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Croatia,gliders,1,"['HR', 'HRV']",['9A'],['GAA-GZZ'],"^(9A)(-{0,1}(G[A-Z]{2})){0,1}$"
-Croatia,helicopters,1,"['HR', 'HRV']",['9A'],['HAA-HZZ'],"^(9A)(-{0,1}(H[A-Z]{2})){0,1}$"
-Croatia,balloons,1,"['HR', 'HRV']",['9A'],['OAA-OZZ'],"^(9A)(-{0,1}(O[A-Z]{2})){0,1}$"
-Croatia,ultralight aircraft,1,"['HR', 'HRV']",['9A'],['UAA-UZZ'],"^(9A)(-{0,1}(U[A-Z]{2})){0,1}$"
-Cuba,agricultural,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['A1000-A1999'],"^(CL|CM|CO|T4)(-{0,1}(A1[0-9]{3})){0,1}$"
-Cuba,cargo,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['C1000-C1999'],"^(CL|CM|CO|T4)(-{0,1}(C1[0-9]{3})){0,1}$"
-Cuba,helicopters,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['H1000-H1999'],"^(CL|CM|CO|T4)(-{0,1}(H1[0-9]{3})){0,1}$"
-Cuba,private,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['N1000-N1999'],"^(CL|CM|CO|T4)(-{0,1}(N1[0-9]{3})){0,1}$"
-Cuba,commercial,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['T1000-T1999'],"^(CL|CM|CO|T4)(-{0,1}(T1[0-9]{3})){0,1}$"
-Cuba,ultralights,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['U1000-U1999'],"^(CL|CM|CO|T4)(-{0,1}(U1[0-9]{3})){0,1}$"
-Cuba,general,0,"['CU', 'CUB']","['CU', 'CL', 'CM', 'CO', 'T4']",['AAA-ZZZ'],"^(CU|CL|CM|CO|T4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Cyprus,general,0,"['CY', 'CYP']","['C4', 'H2', 'P3', '5B']",['AAA-ZZZ'],"^(C4|H2|P3|5B)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Czech Republic,general,0,"['CZ', 'CZE']","['OK', 'OL']",['AAA-ZZZ'],"^(OK|OL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Czech Republic,microlights,1,"['CZ', 'CZE']","['OK', 'OL']",['AAA00-ZZZ99'],"^(OK|OL)(-{0,1}([A-Z]{3}[0-9][0-9])){0,1}$"
-Czech Republic,gliders and balloons,1,"['CZ', 'CZE']","['OK', 'OL']",['0000-9999'],"^(OK|OL)(-{0,1}([0-9]{4})){0,1}$"
-Czech Republic,ultralights,1,"['CZ', 'CZE']","['OK', 'OL']",['A000-A999'],"^(OK|OL)(-{0,1}(A[0-9]{3})){0,1}$"
-Czech Republic,unmanned aircraft,1,"['CZ', 'CZE']","['OK', 'OL']",['X000A-X999Z'],"^(OK|OL)(-{0,1}(X[0-9]{3}[A-Z])){0,1}$"
-Denmark,general,0,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['AAA-ZZZ'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Denmark,helicopters and gliders,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['HAA-HZZ'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(H[A-Z]{2})){0,1}$"
-Denmark,balloons,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['BAA-BZZ'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(B[A-Z]{2})){0,1}$"
-Denmark,ultralight trikes,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['81-8999'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(8[1-9][0-9]{0,2})){0,1}$"
-Denmark,ultralight 3-axis,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['91-9999'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(9[1-9][0-9]{0,2})){0,1}$"
-Denmark,ultralight gyro,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['1001-1999'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(1[0-9][0-9][1-9])){0,1}$"
-Djibouti,general,0,"['DJ', 'DJI']",['J2'],['AAA-ZZZ'],"^(J2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Dominica,general,0,"['DM', 'DMA']",['J7'],['AAA-ZZZ'],"^(J7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Dominican Republic,general,0,"['DO', 'DOM']",['HI'],['100AA-999ZZ'],"^(HI)(-{0,1}(([1-9][0-9][0-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Ecuador,general,0,"['EC', 'ECU']","['HC', 'HD']",['AAA-ZZZ'],"^(HC|HD)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Egypt,general,0,"['EG', 'EGY']","['SSA', 'SSB', 'SSC', 'SSD', 'SSE', 'SSF', 'SSG', 'SSH', 'SSI', 'SSJ', 'SSK', 'SSL', 'SSM', 'SSM', 'SU', '6A', '6B']","['AAA-XXZ', 'ZAA-ZZZ']","^(SSA|SSB|SSC|SSD|SSE|SSF|SSG|SSH|SSI|SSJ|SSK|SSL|SSM|SSM|SU|6A|6B)(-{0,1}(([A-X][A-X][A-Z]|Z[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Egypt,gliders and balloons,1,"['EG', 'EGY']","['SSA', 'SSB', 'SSC', 'SSD', 'SSE', 'SSF', 'SSG', 'SSH', 'SSI', 'SSJ', 'SSK', 'SSL', 'SSM', 'SSM', 'SU', '6A', '6B']",['001-999'],"^(SSA|SSB|SSC|SSD|SSE|SSF|SSG|SSH|SSI|SSJ|SSK|SSL|SSM|SSM|SU|6A|6B)(-{0,1}([0-9][0-9][1-9])){0,1}$"
-El Salvador,general,0,"['SV', 'SLV']","['HU', 'YS']",['AAA-ZZZ'],"^(HU|YS)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Equatorial Guinea,general,0,"['GQ', 'GNQ']",['3C'],['AAA-ZZZ'],"^(3C)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Eritrea,general,0,"['ER', 'ERI']",['E3'],['AAAA-ZZZZ'],"^(E3)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$"
-Estonia,general,0,"['EE', 'EST']",['ES'],['AAA-ZZZ'],"^(ES)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Ethiopia,general,0,"['ET', 'ETH']","['ET', '9E', '9F']",['AAA-ZZZ'],"^(ET|9E|9F)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Falk Islands,general,0,"['FK', 'FLK']",['VP-F'],['AA-ZZ'],"^(VP-F)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Faroe Islands,general,0,"['FO', 'FRO']",['OY-H'],['AA-ZZ'],"^(OY-H)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Fiji,general,0,"['FJ', 'FJI']","['DQ', '3DN', '3DO', '3DP', '3DQ', '3DR', '3DS', '3DT', '3DU', '3DV', '3DW', '3DX', '3DY', '3DZ']",['AAA-ZZZ'],"^(DQ|3DN|3DO|3DP|3DQ|3DR|3DS|3DT|3DU|3DV|3DW|3DX|3DY|3DZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Finland,general,0,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['AAA-ZZZ'],"^(OF|OG|OH|OI|OJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Finland,gliders,1,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['001-999'],"^(OF|OG|OH|OI|OJ)(-{0,1}([0-9][0-9][1-9])){0,1}$"
-Finland,autogyro,1,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['G001-G999'],"^(OF|OG|OH|OI|OJ)(-{0,1}(G[0-9][0-9][1-9])){0,1}$"
-Finland,ultralights,1,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['U001-U999'],"^(OF|OG|OH|OI|OJ)(-{0,1}(U[0-9][0-9][1-9])){0,1}$"
-France,general,0,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['AAAA-ZZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$"
-France,historic,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['AYAA-AZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(A[Y-Z][A-Z]{2})){0,1}$"
-France,gliders,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['CAAA-CZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(C[A-Z]{3})){0,1}$"
-France,overseas territories,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['OAAA-OZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(O[A-Z]{3})){0,1}$"
-France,homebuilt,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['PAAA-PZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(P[A-Z]{3})){0,1}$"
-France,test and delivery,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['WAAA-WZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(W[A-Z]{3})){0,1}$"
-France,state owened,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['ZAAA-ZZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(Z[A-Z]{3})){0,1}$"
-France,ultralights,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']","['00AA-99ZZ', '000AA-999ZZ', '00AAA-99ZZZ', '000AAA-999ZZZ', '69MAA-69MZZ', '69MAAA-69MZZZ']","^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}([0-9][0-9][A-Z]{2}|[0-9]{3}[A-Z]{2}|[0-9][0-9][A-Z]{3}|[0-9]{3}[A-Z]{3}|69M[A-Z]{2}|69M[A-Z]{3})){0,1}$"
-Gabon,general,0,"['GA', 'GAB']",['TR'],['AAA-ZZZ'],"^(TR)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Gambia,general,0,"['GM', 'GMB']",['C5'],['AAA-ZZZ'],"^(C5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Georgia,general,0,"['GE', 'GEO']",['4L'],"['AAA-ZZZ', '10000-99999']","^(4L)(-{0,1}(([A-Z]{3}|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Germany,general,0,"['DE', 'DEU']","['D', 'DA', 'DB', 'DC', 'DD', 'DE', 'DF', 'DG', 'DH', 'DI', 'DJ', 'DK', 'DL', 'DM', 'DN', 'DO', 'DP', 'DR', 'Y2', 'Y3', 'Y4', 'Y5', 'Y6', 'Y7', 'Y8', 'Y9']",['AAA-ZZZ'],"^(D|DA|DB|DC|DD|DE|DF|DG|DH|DI|DJ|DK|DL|DM|DN|DO|DP|DR|Y2|Y3|Y4|Y5|Y6|Y7|Y8|Y9)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Germany,heavy > 20 t MTOW,1,"['DE', 'DEU']",['D'],['AAAA-AZZZ'],"^(D)(-{0,1}(A[A-Z]{3})){0,1}$"
-Germany,test registrations,1,"['DE', 'DEU']",['D'],['AUAA-AZZZ'],"^(D)(-{0,1}(A[U-Z][A-Z]{2})){0,1}$"
-Germany,medium 14 - 20 t MTOW,1,"['DE', 'DEU']",['D'],['BAAA-BZZZ'],"^(D)(-{0,1}(B[A-Z]{3})){0,1}$"
-Germany,light 5.7 - 14 t MTOW,1,"['DE', 'DEU']",['D'],['CAAA-CZZZ'],"^(D)(-{0,1}(C[A-Z]{3})){0,1}$"
-Germany,single-engine up to 2 t MTOW,1,"['DE', 'DEU']",['D'],['EAAA-EZZZ'],"^(D)(-{0,1}(E[A-Z]{3})){0,1}$"
-Germany,single-engine up to 2 - 5.7 t MTOW,1,"['DE', 'DEU']",['D'],['FAAA-FZZZ'],"^(D)(-{0,1}(F[A-Z]{3})){0,1}$"
-Germany,multi-engine up to 2 t MTOW,1,"['DE', 'DEU']",['D'],['GAAA-GZZZ'],"^(D)(-{0,1}(G[A-Z]{3})){0,1}$"
-Germany,rotocraft,1,"['DE', 'DEU']",['D'],['HAAA-HZZZ'],"^(D)(-{0,1}(H[A-Z]{3})){0,1}$"
-Germany,multi-engine up to 2 - 5.7 t MTOW,1,"['DE', 'DEU']",['D'],['IAAA-IZZZ'],"^(D)(-{0,1}(I[A-Z]{3})){0,1}$"
-Germany,powered gliders,1,"['DE', 'DEU']",['D'],['KAAA-KZZZ'],"^(D)(-{0,1}(K[A-Z]{3})){0,1}$"
-Germany,airships,1,"['DE', 'DEU']",['D'],['LAAA-LZZZ'],"^(D)(-{0,1}(L[A-Z]{3})){0,1}$"
-Germany,powered ultralights,1,"['DE', 'DEU']",['D'],['MAAA-MZZZ'],"^(D)(-{0,1}(M[A-Z]{3})){0,1}$"
-Germany,unpowered ultralights,1,"['DE', 'DEU']",['D'],['NAAA-NZZZ'],"^(D)(-{0,1}(N[A-Z]{3})){0,1}$"
-Germany,balloons,1,"['DE', 'DEU']",['D'],['OAAA-OZZZ'],"^(D)(-{0,1}(O[A-Z]{3})){0,1}$"
-Germany,gliders,1,"['DE', 'DEU']",['D'],['0001-9999'],"^(D)(-{0,1}([0-9]{3}[1-9])){0,1}$"
-Ghana,general,0,"['GH', 'GHA']",['9G'],['AAA-ZZZ'],"^(9G)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Gibraltar,general,0,"['GI', 'GIB']",['VP-G'],['AA-ZZ'],"^(VP-G)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Greece,general,0,"['GR', 'GRC']","['J4', 'SV', 'SW', 'SX', 'SY', 'SZ']",['AAA-ZZZ'],"^(J4|SV|SW|SX|SY|SZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Greenland,general,0,"['GL', 'GRL']",['OY-H'],['AA-ZZ'],"^(OY-H)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Grenada,general,0,"['GD', 'GRD']",['J3'],['AAA-ZZZ'],"^(J3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Guatemala,general,0,"['GT', 'GTM']","['TD', 'TG']",['AAA-ZZZ'],"^(TD|TG)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Guinea,general,0,"['GN', 'GIN']",['3X'],['AAA-ZZZ'],"^(3X)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Guinea-Bissau,general,0,"['GW', 'GNB']",['J5'],['AAA-ZZZ'],"^(J5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Guernsey,general,0,"['GG', 'GGY']",['2'],['AAAA-ZZZZ'],"^(2)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$"
-Guyana,general,0,"['GY', 'GUY']",['8R'],['AAA-ZZZ'],"^(8R)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Haiti,general,0,"['HT', 'HTI']","['HH', '4V']",['AAA-ZZZ'],"^(HH|4V)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Honduras,general,0,"['HN', 'HND']","['HQ', 'HR']",['AAA-ZZZ'],"^(HQ|HR)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Hong Kong,general,0,"['HK', 'HKG']","['B-H', 'B-K', 'B-L']",['AA-ZZ'],"^(B-H|B-K|B-L)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Hungary,general,0,"['HU', 'HUN']","['HA', 'HG']",['AAA-ZZZ'],"^(HA|HG)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Hungary,gliders,1,"['HU', 'HUN']","['HA', 'HG']",['1111-9999'],"^(HA|HG)(-{0,1}([1-9][1-9][1-9][1-9])){0,1}$"
-Hungary,ultralights and moter-gliders,1,"['HU', 'HUN']","['HA', 'HG']",['1111-9999'],"^(HA|HG)(-{0,1}([1-9][1-9][1-9][1-9])){0,1}$"
-Iceland,general,0,"['IS', 'ISL']",['TF'],['AAA-ZZZ'],"^(TF)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Iceland,microlights,1,"['IS', 'ISL']",['TF'],['100-999'],"^(TF)(-{0,1}([1-9][0-9][0-9])){0,1}$"
-India,general,0,"['IN', 'IND']","['AT', 'AU', 'AV', 'AW', 'VT', 'VU', 'VV', 'VW', '8T', '8U', '8V', '8W', '8X', '8Y']",['AAA-ZZZ'],"^(AT|AU|AV|AW|VT|VU|VV|VW|8T|8U|8V|8W|8X|8Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Indonesia,general,0,"['ID', 'IDN']","['JZ', 'PK', 'PL', 'PM', 'PN', 'PO', 'YB', 'YC', 'YD', 'YE', 'YF', 'YG', 'YH', '7A', '7B', '7C', '7D', '7E', '7F', '7G', '7H', '7I', '8A', '8B', '8C', '8D', '8E', '8F', '8G', '8H', '8I']",['AAA-ZZZ'],"^(JZ|PK|PL|PM|PN|PO|YB|YC|YD|YE|YF|YG|YH|7A|7B|7C|7D|7E|7F|7G|7H|7I|8A|8B|8C|8D|8E|8F|8G|8H|8I)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Iran,general,0,"['IR', 'IRN']","['EP', 'EQ', '9B', '9C', '9D']",['AAA-ZZZ'],"^(EP|EQ|9B|9C|9D)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Iraq,general,0,"['IQ', 'IRQ']","['HN', 'YI']",['AAA-ZZZ'],"^(HN|YI)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Ireland,general,0,"['IE', 'IRL']","['EI', 'EJ']",['AAA-ZZZ'],"^(EI|EJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Ireland,VIP or business,1,"['IE', 'IRL']","['EI', 'EJ']",['AAAA-ZZZZ'],"^(EI|EJ)(-{0,1}([A-Z]{4})){0,1}$"
-Isle of Man,general,0,"['IM', 'IMN']",['M'],['AAAA-ZZZZ'],"^(M)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$"
-Israel,general,0,"['IL', 'ISR']","['4X', '4Z']",['AAA-ZZZ'],"^(4X|4Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Italy,general,0,"['IT', 'ITA']",['I'],"['AAAA-ZZZZ', '0001-Z999']","^(I)(-{0,1}(([A-Z]{4}|[0-Z][0-9][0-9][1-9])|[A-Z0-9]{1,4})){0,1}$"
-Ivory Coast or Cote d'Ivoire,general,0,"['CI', 'CIV']",['TU'],['AAA-ZZZ'],"^(TU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Jamaica,general,0,"['JM', 'JAM']",['6Y'],['AAA-ZZZ'],"^(6Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Japan,general,0,"['JP', 'JPN']","['JA', 'JB', 'JC', 'JD', 'JE', 'JF', 'JG', 'JH', 'JI', 'JJ', 'JK', 'JL', 'JM', 'JN', 'JO', 'JP', 'JQ', 'JR', 'JS', '7J', '7K', '7L', '7M', '7N', '8J', '8K', '8L', '8M', '8N']","['0001-9999', '001A-999Z', '01AA-99ZZ']","^(JA|JB|JC|JD|JE|JF|JG|JH|JI|JJ|JK|JL|JM|JN|JO|JP|JQ|JR|JS|7J|7K|7L|7M|7N|8J|8K|8L|8M|8N)(-{0,1}(([0-9]{3}[1-9]|[0-9][0-9][1-9][A-Z]|[0-9][1-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Japan,balloons,1,"['JP', 'JPN']","['JA', 'JB', 'JC', 'JD', 'JE', 'JF', 'JG', 'JH', 'JI', 'JJ', 'JK', 'JL', 'JM', 'JN', 'JO', 'JP', 'JQ', 'JR', 'JS', '7J', '7K', '7L', '7M', '7N', '8J', '8K', '8L', '8M', '8N']",['A001-A999'],"^(JA|JB|JC|JD|JE|JF|JG|JH|JI|JJ|JK|JL|JM|JN|JO|JP|JQ|JR|JS|7J|7K|7L|7M|7N|8J|8K|8L|8M|8N)(-{0,1}(A[0-9][0-9][1-9])){0,1}$"
-Jordan,general,0,"['JO', 'JOR']",['JY'],['AAA-ZZZ'],"^(JY)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Kazakhstan,general,0,"['KZ', 'KAZ']","['UN', 'UO', 'UP', 'UQ']",['AAA01-ZZZ99'],"^(UN|UO|UP|UQ)(-{0,1}(([A-Z]{3}[0-9][1-9])|[A-Z0-9]{1,4})){0,1}$"
-Kenya,general,0,"['KE', 'KEN']","['5Y', '5Z']",['AAA-ZZZ'],"^(5Y|5Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Kiribati,general,0,"['KI', 'KIR']",['T3'],['AAA-ZZZ'],"^(T3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-North Korea,general,0,"['KP', 'PRK']","['HM', 'P5', 'P6', 'P7', 'P8', 'P9']",['500-999'],"^(HM|P5|P6|P7|P8|P9)(-{0,1}(([5-9][0-9][0-9])|[A-Z0-9]{1,4})){0,1}$"
-South Korea,ultralights,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['C000-C999'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(C[0-9]{3})){0,1}$"
-South Korea,gliders,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['0000-0599'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(0[0-5][0-9][0-9])){0,1}$"
-South Korea,airships,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['0600-0799'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(0[6-7][0-9][0-9])){0,1}$"
-South Korea,piston engines,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']","['1000-1799', '2000-2099']","^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(1[0-7][0-9][0-9]|20[0-9][0-9])){0,1}$"
-South Korea,turboprops,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['5100-5499'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(5[1-4][0-9][0-9])){0,1}$"
-South Korea,piston engine helicopters,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['6100-6199'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(61[0-9][0-9])){0,1}$"
-South Korea,single turbojets,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['7100-7199'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(71[0-9][0-9])){0,1}$"
-South Korea,twin-jet aircrafts,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']","['7200-7299', '7500-7599', '7700-7799', '7800-7899', '8000-8099', '8200-8299']","^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(72[0-9][0-9]|75[0-9][0-9]|77[0-9][0-9]|78[0-9][0-9]|80[0-9][0-9]|82[0-9][0-9])){0,1}$"
-South Korea,tri-jet aircrafts,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['7300-7399'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(73[0-9][0-9])){0,1}$"
-South Korea,quad-jet aircrafts,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']","['7400-7499', '7600-7699', '8400-8499', '8600-8699']","^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(74[0-9][0-9]|76[0-9][0-9]|84[0-9][0-9]|86[0-9][0-9])){0,1}$"
-South Korea,turboshaft helicopters,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['9100-9699'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(9[1-6][0-9][0-9])){0,1}$"
-Kosovo,general,0,"['XK', 'XKX']",['Z6'],['AAA-ZZZ'],"^(Z6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Kuwait,general,0,"['KW', 'KWT']",['9K'],['AAA-ZZZ'],"^(9K)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Kyrgyzstan,general,0,"['KG', 'KGZ']",['EX'],"['100-999', '10000-99999']","^(EX)(-{0,1}(([1-9][0-9][0-9]|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Laos,general,0,"['LA', 'LAO']","['XW', 'RDPL']",['10000-99999'],"^(XW|RDPL)(-{0,1}(([1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Latvia,general,0,"['LV', 'LVA']",['YL'],['AAA-ZZZ'],"^(YL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Lebanon,general,0,"['LB', 'LBN']",['OD'],['AAA-ZZZ'],"^(OD)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Lesotho,general,0,"['LS', 'LSO']",['7P'],['AAA-ZZZ'],"^(7P)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Liberia,general,0,"['LR', 'LBR']","['A8', 'D5', 'EL', '5L', '5M', '6Z']",['AAA-ZZZ'],"^(A8|D5|EL|5L|5M|6Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Libya,general,0,"['LY', 'LBY']",['5A'],['AAA-ZZZ'],"^(5A)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Liechtenstein,general,0,"['LI', 'LIE']","['HB', 'HB0', 'HB3Y', 'HBL']",['AAA-ZZZ'],"^(HB|HB0|HB3Y|HBL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Lithuania,general,0,"['LT', 'LTU']",['LY'],['AAA-ZZZ'],"^(LY)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Luxembourg,balloons,1,"['LU', 'LUX']",['LX'],['BAA-BZZ'],"^(LX)(-{0,1}(B[A-Z]{2})){0,1}$"
-Luxembourg,gliders,1,"['LU', 'LUX']",['LX'],['CAA-CZZ'],"^(LX)(-{0,1}(C[A-Z]{2})){0,1}$"
-Luxembourg,helicopters,1,"['LU', 'LUX']",['LX'],['HZZ-HZZ'],"^(LX)(-{0,1}(HZZ)){0,1}$"
-Luxembourg,NATO AWACS,1,"['LU', 'LUX']",['LX'],['N90442-N90459'],"^(LX)(-{0,1}(N904[4-5][2-9])){0,1}$"
-Luxembourg,ultralights,1,"['LU', 'LUX']",['LX'],['XAA-XZZ'],"^(LX)(-{0,1}(X[A-Z]{2})){0,1}$"
-Macau or Macao,general,0,"['MO', 'MAC']",['B-M'],['AA-ZZ'],"^(B-M)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Macedonia,general,0,"['MK', 'MKD']",['Z3'],['AAA-ZZZ'],"^(Z3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Macedonia,helicopters,1,"['MK', 'MKD']",['Z3'],['HAA-HZZ'],"^(Z3)(-{0,1}(H[A-Z]{2})){0,1}$"
-Macedonia,ultralights,1,"['MK', 'MKD']",['Z3'],['UA-001-UA-999'],"^(Z3)(-{0,1}(MANUAL)){0,1}$"
-Macedonia,balloons,1,"['MK', 'MKD']",['Z3'],['OAA-OZZ'],"^(Z3)(-{0,1}(O[A-Z]{2})){0,1}$"
-Madagascar,general,0,"['MG', 'MDG']","['5R', '5S', '6X']",['AAA-ZZZ'],"^(5R|5S|6X)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Malawi,general,0,"['MW', 'MWI']",['7Q'],['AAA-ZZZ'],"^(7Q)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Malaysia,general,0,"['MY', 'MYS']","['9M', '9W']",['AAA-ZZZ'],"^(9M|9W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Malaysia,amateur-builts,1,"['MY', 'MYS']","['9M', '9W']",['EAA-EZZ'],"^(9M|9W)(-{0,1}(E[A-Z]{2})){0,1}$"
-Malaysia,ultralights,1,"['MY', 'MYS']","['9M', '9W']",['UAA-UZZ'],"^(9M|9W)(-{0,1}(U[A-Z]{2})){0,1}$"
-Maldives,general,0,"['MV', 'MDV']",['8Q'],['AAA-ZZZ'],"^(8Q)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Mali,general,0,"['ML', 'MLI']",['TZ'],['AAA-ZZZ'],"^(TZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Malta,general,0,"['MT', 'MLT']",['9H'],['AAA-ZZZ'],"^(9H)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Marshall Islands,general,0,"['MH', 'MHL']",['V7'],['0001-9999'],"^(V7)(-{0,1}(([0-9]{3}[1-9])|[A-Z0-9]{1,4})){0,1}$"
-Mauritania,general,0,"['MR', 'MRT']",['5T'],['AAA-ZZZ'],"^(5T)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Mauritius,general,0,"['MU', 'MUS']",['3B'],['AAA-ZZZ'],"^(3B)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Mexico,general,0,"['MX', 'MEX']","['XA', 'XB', 'XC', 'XD', 'XE', 'XF', 'XG', 'XH', 'XI', '4A', '4B', '4C', '6D', '6E', '6F', '6G', '6H', '6I', '6J']",['AAA-ZZZ'],"^(XA|XB|XC|XD|XE|XF|XG|XH|XI|4A|4B|4C|6D|6E|6F|6G|6H|6I|6J)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Mexico,commercial,1,"['MX', 'MEX']",['XA'],['AAA-ZZZ'],"^(XA)(-{0,1}([A-Z]{3})){0,1}$"
-Mexico,private,1,"['MX', 'MEX']",['XB'],['AAA-ZZZ'],"^(XB)(-{0,1}([A-Z]{3})){0,1}$"
-Mexico,government,1,"['MX', 'MEX']",['XC'],['AAA-ZZZ'],"^(XC)(-{0,1}([A-Z]{3})){0,1}$"
-Micronesia,general,0,"['FM', 'FSM']",['V6'],['AAA-ZZZ'],"^(V6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Moldova,general,0,"['MD', 'MDA']",['ER'],"['AAA-ZZZ', '10000-99999']","^(ER)(-{0,1}(([A-Z]{3}|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Monaco,general,0,"['MC', 'MCO']",['3A'],['MAA-MZZ'],"^(3A)(-{0,1}((M[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Mongolia,general,0,"['MN', 'MNG']","['JT', 'JU', 'JV']",['1000-9999'],"^(JT|JU|JV)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$"
-Montenegro,general,0,"['ME', 'MNE']",['4O'],['AAA-ZZZ'],"^(4O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Montserrat,general,0,"['MS', 'MSR']",['VP-M'],['AA-ZZ'],"^(VP-M)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Morocco,general,0,"['MA', 'MAR']","['CN', '5C', '5D', '5E', '5F', '5G']",['AAA-ZZZ'],"^(CN|5C|5D|5E|5F|5G)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Mozambique,general,0,"['MZ', 'MOZ']","['C8', 'C9']",['AAA-ZZZ'],"^(C8|C9)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Myanmar or Burma,general,0,"['MM', 'MMR']","['XY', 'XZ']",['AAA-ZZZ'],"^(XY|XZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Namibia,general,0,"['NA', 'NAM']",['V5'],['AAA-ZZZ'],"^(V5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Nauru,general,0,"['NR', 'NRU']",['C2'],['AAA-ZZZ'],"^(C2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Nepal,general,0,"['NP', 'NPL']",['9N'],['AAA-ZZZ'],"^(9N)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Nepal,government,1,"['NP', 'NPL']",['9N'],['RAA-RZZ'],"^(9N)(-{0,1}(R[A-Z]{2})){0,1}$"
-Netherlands,general,0,"['NL', 'NLD']","['PA', 'PB', 'PC', 'PD', 'PE', 'PF', 'PG', 'PH', 'PI']",['AAA-ZZZ'],"^(PA|PB|PC|PD|PE|PF|PG|PH|PI)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Netherlands,drones,1,"['NL', 'NLD']",['PH'],['1AA-1ZZ'],"^(PH)(-{0,1}(1[A-Z]{2})){0,1}$"
-Netherlands,microlights,1,"['NL', 'NLD']",['PH'],['1A1-9Z9'],"^(PH)(-{0,1}([1-9][A-Z][1-9])){0,1}$"
-Netherlands,gliders,1,"['NL', 'NLD']",['PH'],['100-9999'],"^(PH)(-{0,1}([1-9][0-9][0-9]{1,2})){0,1}$"
-Netherlands Antilles or Curacao,general,0,"['AN', 'ANT']",['PJ'],['AAA-ZZZ'],"^(PJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-New Zealand,general,0,"['NZ', 'NZL']","['ZK', 'ZL', 'ZM']",['***'],"^(ZK|ZL|ZM)(-{0,1}([A-Z0-9]{3}|[A-Z0-9]{1,4})){0,1}$"
-New Zealand,historical,1,"['NZ', 'NZL']",['ZK'],"['A**', 'B**', 'G**', 'HA*']","^(ZK)(-{0,1}(A|[A-Z0-9]|[A-Z0-9]|B|[A-Z0-9]|[A-Z0-9]|G|[A-Z0-9]|[A-Z0-9]|HA[A-Z0-9])){0,1}$"
-New Zealand,balloons,1,"['NZ', 'NZL']",['ZK'],"['FA*', 'FB*']","^(ZK)(-{0,1}(F|A|[A-Z0-9]|FB[A-Z0-9])){0,1}$"
-New Zealand,gliders,1,"['NZ', 'NZL']",['ZK'],['G**'],"^(ZK)(-{0,1}(G[A-Z0-9]{2})){0,1}$"
-New Zealand,helicopters,1,"['NZ', 'NZL']",['ZK'],"['H**', 'I**']","^(ZK)(-{0,1}(H|[A-Z0-9]|[A-Z0-9]|I[A-Z0-9]{2})){0,1}$"
-New Zealand,gyrocopters,1,"['NZ', 'NZL']",['ZK'],"['R**', 'RB*', 'RC*', 'RD*']","^(ZK)(-{0,1}(R|[A-Z0-9]|[A-Z0-9]|R|B|[A-Z0-9]|R|C|[A-Z0-9]|RD[A-Z0-9])){0,1}$"
-New Zealand,ICAO prohibited,1,"['NZ', 'NZL']",['ZK'],['Q**'],"^(ZK)(-{0,1}(Q[A-Z0-9]{2})){0,1}$"
-Nicaragua,general,0,"['NI', 'NIC']","['HT', 'H6', 'H7', 'YN']",['AAA-ZZZ'],"^(HT|H6|H7|YN)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Niger,general,0,"['NE', 'NER']",['5U'],['AAA-ZZZ'],"^(5U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Nigeria,general,0,"['NG', 'NGA']","['5N', '5O']",['AAA-ZZZ'],"^(5N|5O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Norway,general,0,"['NO', 'NOR']","['JW', 'JX', 'LA', 'LB', 'LC', 'LD', 'LE', 'LF', 'LG', 'LH', 'LI', 'LJ', 'LK', 'LL', 'LM', 'LN', '3Y']",['AAA-ZZZ'],"^(JW|JX|LA|LB|LC|LD|LE|LF|LG|LH|LI|LJ|LK|LL|LM|LN|3Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Norway,gliders,1,"['NO', 'NOR']",['LN'],['GAA-GZZ'],"^(LN)(-{0,1}(G[A-Z]{2})){0,1}$"
-Norway,helicopters,1,"['NO', 'NOR']",['LN'],['OAA-OZZ'],"^(LN)(-{0,1}(O[A-Z]{2})){0,1}$"
-Norway,balloons,1,"['NO', 'NOR']",['LN'],['CAA-CZZ'],"^(LN)(-{0,1}(C[A-Z]{2})){0,1}$"
-Norway,ultralights,1,"['NO', 'NOR']",['LN'],['YAA-YZZ'],"^(LN)(-{0,1}(Y[A-Z]{2})){0,1}$"
-Oman,general,0,"['OM', 'OMN']",['A4O'],['AA-ZZ'],"^(A4O)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Pakistan,general,0,"['PK', 'PAK']","['AP', 'AQ', 'AR', 'AS', '6P', '6Q', '6R', '6S']",['AAA-ZZZ'],"^(AP|AQ|AR|AS|6P|6Q|6R|6S)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Palau,general,0,"['PW', 'PLW']",['T8'],['AAA-ZZZ'],"^(T8)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Palestinian Authority,general,0,"['PS', 'PSE']",['E4'],['AAA-ZZZ'],"^(E4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Palestinian Authority,general,0,"['PS', 'PSE']",['SU-Y'],['AA-ZZ'],"^(SU-Y)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Panama,general,0,"['PA', 'PAN']","['HO', 'HP', 'H3', 'H8', 'H9', '3E', '3F']",['AAA-ZZZ'],"^(HO|HP|H3|H8|H9|3E|3F)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Papua New Guinea,general,0,"['PG', 'PNG']",['P2'],['AAA-ZZZ'],"^(P2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Paraguay,general,0,"['PY', 'PRY']",['ZP'],['AAA-ZZZ'],"^(ZP)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Peru,general,0,"['PE', 'PER']","['OA', 'OB', 'OC', '4T']",['1000-9999'],"^(OA|OB|OC|4T)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$"
-Philippines,general,0,"['PH', 'PHL']","['RP', 'DU', 'DV', 'DW', 'DX', 'DY', 'DZ', '4D', '4E', '4F', '4G', '4H', '4I']",['AAA-ZZZ'],"^(RP|DU|DV|DW|DX|DY|DZ|4D|4E|4F|4G|4H|4I)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Philippines,government,1,"['PH', 'PHL']",['RP'],['0001-9999'],"^(RP)(-{0,1}([0-9]{3}[1-9])){0,1}$"
-Philippines,registered aircraft,1,"['PH', 'PHL']",['RP'],['C0001-C9999'],"^(RP)(-{0,1}(C[0-9]{3}[1-9])){0,1}$"
-Philippines,gliders,1,"['PH', 'PHL']",['RP'],['G0001-G9999'],"^(RP)(-{0,1}(G[0-9]{3}[1-9])){0,1}$"
-Philippines,limited,1,"['PH', 'PHL']",['RP'],['R0001-R9999'],"^(RP)(-{0,1}(R[0-9]{3}[1-9])){0,1}$"
-Philippines,unmanned,1,"['PH', 'PHL']",['RP'],['U001A-U999Z'],"^(RP)(-{0,1}(U[0-9][0-9][1-9][A-Z])){0,1}$"
-Philippines,experimental,1,"['PH', 'PHL']",['RP'],['X0001-X9999'],"^(RP)(-{0,1}(X[0-9]{3}[1-9])){0,1}$"
-Poland,general,0,"['PL', 'POL']","['HF', 'SN', 'SO', 'SP', 'SQ', 'SR', '3Z']",['AAA-ZZZ'],"^(HF|SN|SO|SP|SQ|SR|3Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Poland,motor-gliders,1,"['PL', 'POL']",['SP'],['0***'],"^(SP)(-{0,1}(0[A-Z0-9]{3})){0,1}$"
-Poland,gliders,1,"['PL', 'POL']",['SP'],"['1***-3***', '8***']","^(SP)(-{0,1}([1-3][A-Z0-9]{3}|8[A-Z0-9]{3})){0,1}$"
-Poland,balloons,1,"['PL', 'POL']",['SP'],['B**'],"^(SP)(-{0,1}(B[A-Z0-9]{2})){0,1}$"
-Poland,Polish airlines,1,"['PL', 'POL']",['SP'],['L**'],"^(SP)(-{0,1}(L[A-Z0-9]{2})){0,1}$"
-Poland,ultralights,1,"['PL', 'POL']",['SP'],['S***'],"^(SP)(-{0,1}(S[A-Z0-9]{3})){0,1}$"
-Poland,autogyros,1,"['PL', 'POL']",['SP'],['X***'],"^(SP)(-{0,1}(X[A-Z0-9]{3})){0,1}$"
-Poland,experimental,1,"['PL', 'POL']",['SP'],['Y**'],"^(SP)(-{0,1}(Y[A-Z0-9]{2})){0,1}$"
-Poland,police,1,"['PL', 'POL']",['SN'],"['**XP', 'VP*']","^(SN)(-{0,1}([A-Z0-9]|[A-Z0-9]|X|P|VP[A-Z0-9])){0,1}$"
-Poland,border guard,1,"['PL', 'POL']",['SN'],"['**YG', 'VS*']","^(SN)(-{0,1}([A-Z0-9]|[A-Z0-9]|Y|G|VS[A-Z0-9])){0,1}$"
-Portugal,general,0,"['PT', 'PRT']","['CQ', 'CR', 'CS', 'CT', 'CU']",['AAA-ZZZ'],"^(CQ|CR|CS|CT|CU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Portugal,airlines,1,"['PT', 'PRT']",['CS'],['T**'],"^(CS)(-{0,1}(T[A-Z0-9]{2})){0,1}$"
-Portugal,helicopters,1,"['PT', 'PRT']",['CS'],['H**'],"^(CS)(-{0,1}(H[A-Z0-9]{2})){0,1}$"
-Portugal,experimental,1,"['PT', 'PRT']",['CS'],['X**'],"^(CS)(-{0,1}(X[A-Z0-9]{2})){0,1}$"
-Portugal,ultralights,1,"['PT', 'PRT']",['CS'],['U**'],"^(CS)(-{0,1}(U[A-Z0-9]{2})){0,1}$"
-Portugal,gliders,1,"['PT', 'PRT']",['CS'],['P**'],"^(CS)(-{0,1}(P[A-Z0-9]{2})){0,1}$"
-Portugal,balloons,1,"['PT', 'PRT']",['CS'],['B**'],"^(CS)(-{0,1}(B[A-Z0-9]{2})){0,1}$"
-Qatar,general,0,"['QA', 'QAT']",['A7'],['AAA-ZZZ'],"^(A7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Qatar,official,1,"['QA', 'QAT']",['A7'],"['HAA-HZZ', 'MAA-MZZ']","^(A7)(-{0,1}(H[A-Z]{2}|M[A-Z]{2})){0,1}$"
-Reunion Island,general,2,"['RE', 'REU']",['F-OD'],['AA-ZZ'],"^(F-OD)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Romania,general,0,"['RO', 'ROU']","['YO', 'YP', 'YQ', 'YR']",['AAA-ZZZ'],"^(YO|YP|YQ|YR)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Romania,gliders and ultralights,1,"['RO', 'ROU']",['YR'],['AAA-ZZZ'],"^(YR)(-{0,1}([A-Z]{3})){0,1}$"
-Romania,drones,1,"['RO', 'ROU']",['YR'],['D0000-D9999'],"^(YR)(-{0,1}(D[0-9]{4})){0,1}$"
-Russia,general,0,"['RU', 'RUS']","['R', 'RA', 'RF', 'UA', 'UB', 'UC', 'UD', 'UE', 'UF', 'UG', 'UH', 'UI']","['00001-99999', '0001K-9999K', '0001G-9999G', '0001A-9999A']","^(R|RA|RF|UA|UB|UC|UD|UE|UF|UG|UH|UI)(-{0,1}(([0-9]{4}[1-9]|[0-9]{3}[1-9]K|[0-9]{3}[1-9]G|[0-9]{3}[1-9]A)|[A-Z0-9]{1,4})){0,1}$"
-Rwanda,general,0,"['RW', 'RWA']",['9XR'],['AA-ZZ'],"^(9XR)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Saint Helena,general,0,"['SH', 'SHN']",['VQ-H'],['AA-ZZ'],"^(VQ-H)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Saint Kitts and Nevis,general,0,"['KN', 'KNA']",['V4'],['AAA-ZZZ'],"^(V4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Saint Lucia,general,0,"['LC', 'LCA']",['J6'],['AAA-ZZZ'],"^(J6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Saint Vincent and the Grenadines,general,0,"['VC', 'VCT']",['J8'],['AAA-ZZZ'],"^(J8)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Samoa,general,0,"['WS', 'WSM']",['5W'],['AAA-ZZZ'],"^(5W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-San Marino,general,0,"['SM', 'SMR']",['T7'],['AAA-ZZZ'],"^(T7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-San Marino,microlights,1,"['SM', 'SMR']",['T7'],['001-999'],"^(T7)(-{0,1}([0-9][0-9][1-9])){0,1}$"
-Sao Tome and Principe,general,0,"['ST', 'STP']",['S9'],['AAA-ZZZ'],"^(S9)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Saudi Arabia,general,0,"['SA', 'SAU']","['HZ', '7Z', '8Z']","['AAA-ZZZ', 'AA1-ZZ99', 'AAA1-ZZZ99', 'AAAA-ZZZZ']","^(HZ|7Z|8Z)(-{0,1}(([A-Z]{3}|[A-Z]{2}[1-9][0-9]{0,1}|[A-Z]{3}[1-9][0-9]{0,1}|[A-Z]{4})|[A-Z0-9]{1,4})){0,1}$"
-Senegal,general,0,"['SN', 'SEN']","['6V', '6W']",['AAA-ZZZ'],"^(6V|6W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Serbia,general,0,"['RS', 'SRB']","['YT', 'YU']",['AAA-ZZZ'],"^(YT|YU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Serbia,gliders,1,"['RS', 'SRB']","['YT', 'YU']",['0000-9999'],"^(YT|YU)(-{0,1}([0-9]{4})){0,1}$"
-Serbia,ultralights,1,"['RS', 'SRB']","['YT', 'YU']",['A000-Z999'],"^(YT|YU)(-{0,1}([A-Z][0-9]{3})){0,1}$"
-Serbia,drones,1,"['RS', 'SRB']","['YT', 'YU']",['D0000-D9999'],"^(YT|YU)(-{0,1}(D[0-9]{4})){0,1}$"
-Seychelles,general,0,"['SC', 'SYC']",['S7'],['AAA-ZZZ'],"^(S7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Sierra Leone,general,0,"['SL', 'SLE']",['9L'],['AAA-ZZZ'],"^(9L)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Singapore,general,0,"['SG', 'SGP']","['9V', 'S6']",['AAA-ZZZ'],"^(9V|S6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Slovakia,general,0,"['SK', 'SVK']",['OM'],['AAA-ZZZ'],"^(OM)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Slovakia,ultralights,1,"['SK', 'SVK']",['OM'],['AAAA-ZZZZ'],"^(OM)(-{0,1}([A-Z]{4})){0,1}$"
-Slovakia,microlights,1,"['SK', 'SVK']",['OM'],['M000-M999'],"^(OM)(-{0,1}(M[0-9]{3})){0,1}$"
-Slovakia,gliders,1,"['SK', 'SVK']",['OM'],['0000-9999'],"^(OM)(-{0,1}([0-9]{4})){0,1}$"
-Slovenia,general,0,"['SI', 'SVN']",['S5'],"['AAA-9999', 'DAA-DZZ']","^(S5)(-{0,1}(([A-Z0-9]{3}[0-9]{0,1}|D[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Slovenia,helicopters,1,"['SI', 'SVN']",['S5'],['HAA-HZZ'],"^(S5)(-{0,1}(H[A-Z]{2})){0,1}$"
-Slovenia,ultralights,1,"['SI', 'SVN']",['S5'],['PAA-PZZ'],"^(S5)(-{0,1}(P[A-Z]{2})){0,1}$"
-Slovenia,amature builds,1,"['SI', 'SVN']",['S5'],['MAA-MZZ'],"^(S5)(-{0,1}(M[A-Z]{2})){0,1}$"
-Slovenia,gyrocopters,1,"['SI', 'SVN']",['S5'],['JAA-JZZ'],"^(S5)(-{0,1}(J[A-Z]{2})){0,1}$"
-Slovenia,oldtimer gliders,1,"['SI', 'SVN']",['S5'],['1000-1999'],"^(S5)(-{0,1}(1[0-9]{3})){0,1}$"
-Slovenia,single-seat gliders,1,"['SI', 'SVN']",['S5'],['3000-3999'],"^(S5)(-{0,1}(3[0-9]{3})){0,1}$"
-Slovenia,double-seat gliders,1,"['SI', 'SVN']",['S5'],['7000-7999'],"^(S5)(-{0,1}(7[0-9]{3})){0,1}$"
-Slovenia,motorgliders,1,"['SI', 'SVN']",['S5'],['KAA-KZZ'],"^(S5)(-{0,1}(K[A-Z]{2})){0,1}$"
-Slovenia,balloons,1,"['SI', 'SVN']",['S5'],['OAA-OZZ'],"^(S5)(-{0,1}(O[A-Z]{2})){0,1}$"
-Solomon Islands,general,0,"['SB', 'SLB']",['H4'],['AAA-ZZZ'],"^(H4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Somalia,general,0,"['SO', 'SOM']","['6O', 'T5']",['AAA-ZZZ'],"^(6O|T5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-South Africa,general,0,"['ZA', 'ZAF']","['S8', 'ZR', 'ZS', 'ZT', 'ZU']",['AAA-ZZZ'],"^(S8|ZR|ZS|ZT|ZU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-South Sudan,general,0,"['SS', 'SSD']",['Z8'],['AAA-ZZZ'],"^(Z8)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Spain,general,0,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['AAA-WZZ'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}(([A-W][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-Spain,amature builds,1,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['YAA-ZZZ'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}([Y-Z][A-Z]{2})){0,1}$"
-Spain,ultralights,1,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['AA0-ZZ9'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}([A-Z]{2}[0-9])){0,1}$"
-Spain,test and delivery,1,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['001-999'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}([0-9][0-9][1-9])){0,1}$"
-Sri Lanka,general,0,"['LK', 'LKA']","['4P', '4Q', '4R', '4S']",['AAA-ZZZ'],"^(4P|4Q|4R|4S)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Sudan,general,0,"['SD', 'SDN']","['SSN', 'SSM', 'SSO', 'SSP', 'SSQ', 'SSR', 'SSS', 'SST', 'SSU', 'SSW', 'SSX', 'SSY', 'SSZ', 'STA', 'STB', 'STC', 'STD', 'STE', 'STF', 'STG', 'STH', 'STI', 'STJ', 'STK', 'STL', 'STM', 'STN', 'STO', 'STP', 'STQ', 'STR', 'STS', 'STT', 'STU', 'STV', 'STW', 'STX', 'STY', 'STZ', '6T', '6U']",['AAA-ZZZ'],"^(SSN|SSM|SSO|SSP|SSQ|SSR|SSS|SST|SSU|SSW|SSX|SSY|SSZ|STA|STB|STC|STD|STE|STF|STG|STH|STI|STJ|STK|STL|STM|STN|STO|STP|STQ|STR|STS|STT|STU|STV|STW|STX|STY|STZ|6T|6U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Suriname,general,0,"['SR', 'SUR']",['PZ'],['AAA-ZZZ'],"^(PZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Suriname,helicopters,1,"['SR', 'SUR']",['PZ'],['HAA-HZZ'],"^(PZ)(-{0,1}(H[A-Z]{2})){0,1}$"
-Suriname,commercial,1,"['SR', 'SUR']",['PZ'],['TAA-TZZ'],"^(PZ)(-{0,1}(T[A-Z]{2})){0,1}$"
-Suriname,agricultural,1,"['SR', 'SUR']",['PZ'],['UAA-UZZ'],"^(PZ)(-{0,1}(U[A-Z]{2})){0,1}$"
-Swaziland or Eswatini,general,0,"['SZ', 'SWZ']","['3D', '3DA', '3DB', '3DC', '3DD', '3DE', '3DF', '3DG', '3DH', '3DI', '3DJ', '3DK', '3DL', '3DM']",['AAA-ZZZ'],"^(3D|3DA|3DB|3DC|3DD|3DE|3DF|3DG|3DH|3DI|3DJ|3DK|3DL|3DM)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Sweden,general,0,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['AAA-ZZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Sweden,jets,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']","['DAA-DZZ', 'RAA-RZZ']","^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(D[A-Z]{2}|R[A-Z]{2})){0,1}$"
-Sweden,helicopters,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['HAA-HZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(H[A-Z]{2})){0,1}$"
-Sweden,gliders,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['SAA-UZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}([S-U][A-Z]{2})){0,1}$"
-Sweden,ultralights,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']","['VAA-VZZ', 'YAA-YZZ']","^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(V[A-Z]{2}|Y[A-Z]{2})){0,1}$"
-Sweden,amuture builds,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['XAA-XZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(X[A-Z]{2})){0,1}$"
-Sweden,lighter than air,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['ZAA-ZZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(Z[A-Z]{2})){0,1}$"
-Sweden,test and delivery,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['A01-Z99'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}([A-Z][0-9][1-9])){0,1}$"
-Switzerland,general,0,"['CH', 'CHE']","['HB', 'HE']",['AAA-ZZZ'],"^(HB|HE)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Syria,general,0,"['SY', 'SYR']","['YK', '6C']",['AAA-ZZZ'],"^(YK|6C)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Tahiti or French Polynesia,general,2,"['PF', 'PYF']",['F-OH'],['AA-ZZ'],"^(F-OH)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Taiwan,general,0,"['TW', 'TWN']","['B', 'BM', 'BN', 'BO', 'BQ', 'BV', 'BX']",['00000-99999'],"^(B|BM|BN|BO|BQ|BV|BX)(-{0,1}(([0-9]{5})|[A-Z0-9]{1,4})){0,1}$"
-Tajikistan,general,0,"['TJ', 'TJK']",['EY'],['00000-99999'],"^(EY)(-{0,1}(([0-9]{5})|[A-Z0-9]{1,4})){0,1}$"
-Tanzania,general,0,"['TZ', 'TZA']","['5H', '5I']",['AAA-ZZZ'],"^(5H|5I)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Thailand,general,0,"['TH', 'THA']","['E2', 'HS']",['AAA-ZZZ'],"^(E2|HS)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Timor–Leste,general,0,"['TL', 'TLS']",['4W'],['AAA-ZZZ'],"^(4W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Togo,general,0,"['TG', 'TGO']",['5V'],['AAA-ZZZ'],"^(5V)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Tonga,general,0,"['TO', 'TON']",['A3'],['AAA-ZZZ'],"^(A3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Trinidad and Tobago,general,0,"['TT', 'TTO']","['9Y', '9Z']",['AAA-ZZZ'],"^(9Y|9Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Tunisia,general,0,"['TN', 'TUN']","['TS', '3V']",['AAA-ZZZ'],"^(TS|3V)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Turkey,general,0,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['AAA-ZZZ'],"^(TA|TB|TC|YM)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Turkey,balloons,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['BAA-BZZ'],"^(TA|TB|TC|YM)(-{0,1}(B[A-Z]{2})){0,1}$"
-Turkey,helicopters,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['HAA-HZZ'],"^(TA|TB|TC|YM)(-{0,1}(H[A-Z]{2})){0,1}$"
-Turkey,gliders,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['PAA-PZZ'],"^(TA|TB|TC|YM)(-{0,1}(P[A-Z]{2})){0,1}$"
-Turkey,ultralights,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['UAA-UZZ'],"^(TA|TB|TC|YM)(-{0,1}(U[A-Z]{2})){0,1}$"
-Turkey,agricultural,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['ZAA-ZZZ'],"^(TA|TB|TC|YM)(-{0,1}(Z[A-Z]{2})){0,1}$"
-Turkmenistan,general,0,"['TM', 'TKM']",['EZ'],['A100-Z999'],"^(EZ)(-{0,1}(([A-Z][1-9][0-9][0-9])|[A-Z0-9]{1,4})){0,1}$"
-Turks and Caicos Islands,general,0,"['TC', 'TCA']",['VQ-T'],['AA-ZZ'],"^(VQ-T)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$"
-Tuvalu,general,0,"['TV', 'TUV']",['T2'],['AAA-ZZZ'],"^(T2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Uganda,general,0,"['UG', 'UGA']",['5X'],['AAA-ZZZ'],"^(5X)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Ukraine,general,0,"['UA', 'UKR']","['EM', 'EN', 'EO', 'UR', 'US', 'UT', 'UU', 'UV', 'UW', 'UX', 'UY', 'UZ']","['AAA-ZZZ', '10000-99999', 'AAAA-ZZZZ']","^(EM|EN|EO|UR|US|UT|UU|UV|UW|UX|UY|UZ)(-{0,1}(([A-Z]{3}|[1-9][0-9]{4}|[A-Z]{4})|[A-Z0-9]{1,4})){0,1}$"
-United Arab Emirates,general,0,"['AE', 'ARE']",['A6'],['AAA-ZZZ'],"^(A6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-United Kingdom,general,0,"['GB', 'GBR']","['2', 'G', 'M', 'VP', 'VQ', 'VS', 'ZB', 'ZC', 'ZD', 'ZE', 'ZF', 'ZG', 'ZH', 'ZI', 'ZJ', 'ZN', 'ZO', 'ZQ']",['AAAA-ZZZZ'],"^(2|G|M|VP|VQ|VS|ZB|ZC|ZD|ZE|ZF|ZG|ZH|ZI|ZJ|ZN|ZO|ZQ)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$"
-United States,general,0,"['US', 'USA']","['AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'K', 'N', 'W']","['1-99999', '1A-9999Z', '1AA-999ZZ']","^(AA|AB|AC|AD|AE|AF|AG|AH|AI|AJ|AK|AL|K|N|W)(-{0,1}(([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$"
-United States,commercial and private,1,"['US', 'USA']",['NC'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NC)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$"
-United States,gliders,1,"['US', 'USA']",['NG'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NG)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$"
-United States,limited,1,"['US', 'USA']",['NL'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NL)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$"
-United States,restricte,1,"['US', 'USA']",['NR'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NR)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$"
-United States,state,1,"['US', 'USA']",['NS'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NS)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$"
-United States,experimental,1,"['US', 'USA']",['NX'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NX)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$"
-Uruguay,general,0,"['UY', 'URY']","['CV', 'CW', 'CX']",['AAA-ZZZ'],"^(CV|CW|CX)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Uzbekistan,general,0,"['UZ', 'UZB']","['UJ', 'UK', 'UL', 'UM']",['10000-99999'],"^(UJ|UK|UL|UM)(-{0,1}(([1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$"
-Vanuatu,general,0,"['VU', 'VUT']",['YJ'],['AA1-ZZ99'],"^(YJ)(-{0,1}(([A-Z]{2}[1-9][0-9]{0,1})|[A-Z0-9]{1,4})){0,1}$"
-Vatican City,general,0,"['VA', 'VAT']",['HV'],['AAA-ZZZ'],"^(HV)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Venezuela,general,0,"['VE', 'VEN']","['YV', 'YW', 'YX', 'YY', '4M']","['1000-9999', '100T-999T']","^(YV|YW|YX|YY|4M)(-{0,1}(([1-9][0-9]{3}|[1-9][0-9][0-9]T)|[A-Z0-9]{1,4})){0,1}$"
-Venezuela,training,1,"['VE', 'VEN']","['YV', 'YW', 'YX', 'YY', '4M']",['100E-999E'],"^(YV|YW|YX|YY|4M)(-{0,1}([1-9][0-9][0-9]E)){0,1}$"
-Venezuela,official,1,"['VE', 'VEN']","['YV', 'YW', 'YX', 'YY', '4M']",['O100-O999'],"^(YV|YW|YX|YY|4M)(-{0,1}(O[1-9][0-9][0-9])){0,1}$"
-Vietnam,general,0,"['VN', 'VNM']","['XV', '3W']",['1000-9999'],"^(XV|3W)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$"
-Vietnam,turbo jet engine,1,"['VN', 'VNM']","['XV', '3W']",['A100-A999'],"^(XV|3W)(-{0,1}(A[1-9][0-9][0-9])){0,1}$"
-Vietnam,turbo prop engine,1,"['VN', 'VNM']","['XV', '3W']",['B100-B999'],"^(XV|3W)(-{0,1}(B[1-9][0-9][0-9])){0,1}$"
-Vietnam,combustion engine,1,"['VN', 'VNM']","['XV', '3W']",['C100-C999'],"^(XV|3W)(-{0,1}(C[1-9][0-9][0-9])){0,1}$"
-Yemen,general,0,"['YE', 'YEM']",['7O'],['AAA-ZZZ'],"^(7O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Zambia,general,0,"['ZM', 'ZMB']","['9I', '9J']",['AAA-ZZZ'],"^(9I|9J)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
-Zimbabwe,general,0,"['ZW', 'ZWE']","['Z', 'Z2']",['AAA-ZZZ'],"^(Z|Z2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$"
+nation,description,priority,iso codes,callsign,suffix,regex,icao24bit_from,icao24bit_to,icao24bit_prefix
+Afghanistan,general,0,"['AF', 'AFG']","['T6', 'YA']",['AAA-ZZZ'],"^(T6|YA)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",700000,700FFF,['700']
+Albania,general,0,"['AL', 'ALB']",['ZA'],['AAA-ZZZ'],"^(ZA)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",501000,5013FF,"['5010', '5011', '5012', '5013']"
+Algeria,civilian,1,"['DZ', 'DZA']","['7R', '7T', '7U', '7V', '7W', '7X', '7Y']",['VAA-VZZ'],"^(7R|7T|7U|7V|7W|7X|7Y)(-{0,1}(V[A-Z]{2})){0,1}$",,,
+Algeria,military,1,"['DZ', 'DZA']","['7R', '7T', '7U', '7V', '7W', '7X', '7Y']",['WAA-WZZ'],"^(7R|7T|7U|7V|7W|7X|7Y)(-{0,1}(W[A-Z]{2})){0,1}$",,,
+Andorra,general,0,"['AD', 'AND']",['C3'],['AAA-ZZZ'],"^(C3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Angola,general,0,"['AO', 'AGO']","['D2', 'D3']",['AAA-ZZZ'],"^(D2|D3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",090000,090FFF,['090']
+Anguilla,general,0,"['AI', 'AIA']",['VP-A'],['AA-ZZ'],"^(VP-A)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Antigua and Barbuda,general,0,"['AG', 'ATG']",['V2'],['AAA-ZZZ'],"^(V2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Argentina,general,0,"['AR', 'ARG']","['AY', 'AZ', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'L9', 'LO', 'LP', 'LR', 'LS', 'LT', 'LU', 'LV', 'LW']",['AAA-ZZZ'],"^(AY|AZ|L2|L3|L4|L5|L6|L7|L8|L9|LO|LP|LR|LS|LT|LU|LV|LW)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",E00000,E3FFFF,"['E0', 'E1', 'E2', 'E3']"
+Argentina,military,1,"['AR', 'ARG']",['LQ'],['AAA-ZZZ'],"^(LQ)(-{0,1}([A-Z]{3})){0,1}$",,,
+Armenia,general,0,"['AM', 'ARM']",['EK'],['10000-99999'],"^(EK)(-{0,1}(([1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",600000,6003FF,"['6000', '6001', '6002', '6003']"
+Aruba,general,0,"['AW', 'ABW']",['P4'],['AAA-ZZZ'],"^(P4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Australia,general,0,"['AU', 'AUS']","['AX', 'VH', 'VI', 'VJ', 'VK', 'VL', 'VM', 'VN', 'VZ']",['AAA-ZZZ'],"^(AX|VH|VI|VJ|VK|VL|VM|VN|VZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",7C0000,7FFFFF,"['7C', '7D', '7E', '7F']"
+Austria,general,0,"['AT', 'AUT']",['OE'],['AAA-KZZ'],"^(OE)(-{0,1}(([A-K][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",440000,447FFF,"['440', '441', '442', '443', '444', '445', '446', '447']"
+Austria,offical use,1,"['AT', 'AUT']",['OE'],['BAA-BZZ'],"^(OE)(-{0,1}(B[A-Z]{2})){0,1}$",,,
+Austria,scheduled airlines,1,"['AT', 'AUT']",['OE'],['LAA-LZZ'],"^(OE)(-{0,1}(L[A-Z]{2})){0,1}$",,,
+Austria,test registrations,1,"['AT', 'AUT']",['OE'],['VAA-VZZ'],"^(OE)(-{0,1}(V[A-Z]{2})){0,1}$",,,
+Austria,amphibian and sea planes,1,"['AT', 'AUT']",['OE'],['WAA-WZZ'],"^(OE)(-{0,1}(W[A-Z]{2})){0,1}$",,,
+Austria,helicopters,1,"['AT', 'AUT']",['OE'],['XAA-XZZ'],"^(OE)(-{0,1}(X[A-Z]{2})){0,1}$",,,
+Austria,gliders,1,"['AT', 'AUT']",['OE'],['0001-5999'],"^(OE)(-{0,1}([0-5][0-9][0-9][1-9])){0,1}$",,,
+Austria,moter gliders,1,"['AT', 'AUT']",['OE'],['9000-9999'],"^(OE)(-{0,1}(9[0-9]{3})){0,1}$",,,
+Azerbaijan,general,0,"['AZ', 'AZE']","['4J', '4K']","['AZ1-AZ999', '10000-99999']","^(4J|4K)(-{0,1}(([A-Z]{2}[1-9][0-9]{0,2}|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",600800,600BFF,"['6008', '6009', '600A', '600B']"
+Bahamas,general,0,"['BS', 'BHS']",['C6'],['AAA-ZZZ'],"^(C6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0A8000,0A8FFF,['0A8']
+Bahrain,general,0,"['BH', 'BHR']",['A9C'],"['AA-ZZ', 'AAA-ZZZ']","^(A9C)(-{0,1}(([A-Z]{2}|[A-Z]{3})|[A-Z0-9]{1,4})){0,1}$",894000,894FFF,['894']
+Bangladesh,general,0,"['BD', 'BGD']","['S2', 'S3']",['AAA-ZZZ'],"^(S2|S3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",702000,702FFF,['702']
+Barbados,general,0,"['BB', 'BRB']",['8P'],['AAA-ZZZ'],"^(8P)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0AA000,0AA3FF,"['0AA0', '0AA1', '0AA2', '0AA3']"
+Belarus,Soviet Union registrations,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['10000-99999'],"^(EU|EV|EW)(-{0,1}([1-9][0-9]{4})){0,1}$",,,
+Belarus,general,0,"['BY', 'BLR']","['EU', 'EV', 'EW']",['100AA-999ZZ'],"^(EU|EV|EW)(-{0,1}(([1-9][0-9][0-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",510000,5103FF,"['5100', '5101', '5102', '5103']"
+Belarus,Boeing 737,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['200PA-299PA'],"^(EU|EV|EW)(-{0,1}(2[0-9][0-9]PA)){0,1}$",,,
+Belarus,CRJ aircraft,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['100PJ-299PJ'],"^(EU|EV|EW)(-{0,1}([1-2][0-9][0-9]PJ)){0,1}$",,,
+Belarus,official use,1,"['BY', 'BLR']","['EU', 'EV', 'EW']","['001DA', '001PA', '001PB', '85815']","^(EU|EV|EW)(-{0,1}(001DA|001PA|001PB|85815)){0,1}$",,,
+Belarus,balloons,1,"['BY', 'BLR']","['EU', 'EV', 'EW']",['0001L-9999L'],"^(EU|EV|EW)(-{0,1}([0-9]{3}[1-9]L)){0,1}$",,,
+Belgium,general,0,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']","['AAA-PZZ', 'RAA-ZZZ']","^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}(([A-P][A-Z]{2}|[R-Z][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",448000,44FFFF,"['448', '449', '44A', '44B', '44C', '44D', '44E', '44F']"
+Belgium,Belgian national airline Sabena,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['SAA-SZZ'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}(S[A-Z]{2})){0,1}$",,,
+Belgium,balloons,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['BAA-BZZ'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}(B[A-Z]{2})){0,1}$",,,
+Belgium,gliders,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['YAA-ZAA'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}([Y-Z]AA)){0,1}$",,,
+Belgium,home-built aircraft,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']",['01-499'],"^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}([0-4][1-9][0-9]|[0-4][1-9])){0,1}$",,,
+Belgium,microlights,1,"['BE', 'BEL']","['ON', 'OO', 'OP', 'OQ', 'OR', 'OS', 'OT']","['501-999', 'A01-Z99']","^(ON|OO|OP|OQ|OR|OS|OT)(-{0,1}([5-9][0-9][1-9]|[A-Z][0-9][1-9])){0,1}$",,,
+Belize,general,0,"['BZ', 'BLZ']",['V3'],['AAA-ZZZ'],"^(V3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0AB000,0AB3FF,"['0AB0', '0AB1', '0AB2', '0AB3']"
+Benin,general,0,"['BJ', 'BEN']",['TY'],['AAA-ZZZ'],"^(TY)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",094000,0943FF,"['0940', '0941', '0942', '0943']"
+Bermuda,general,0,"['BM', 'BMU']","['VP-B', 'VQ-B', 'VR-B']",['AA-ZZ'],"^(VP-B|VQ-B|VR-B)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Bhutan,general,0,"['BT', 'BTN']",['A5'],['AAA-ZZZ'],"^(A5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",680000,6803FF,"['6800', '6801', '6802', '6803']"
+Bolivia,general,0,"['BO', 'BOL']",['CP'],['1000-9999'],"^(CP)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$",E94000,E94FFF,['E94']
+Bosnia and Herzegovina,general,0,"['BA', 'BIH']",['E7'],['AAA-ZZZ'],"^(E7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Botswana,general,0,"['BW', 'BWA']","['A2', '8O']",['AAA-ZZZ'],"^(A2|8O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",030000,0303FF,"['0300', '0301', '0302', '0303']"
+Brazil,microlights and experimental LSA aircraft,1,"['BR', 'BRA']",['PU'],['AAA-ZZZ'],"^(PU)(-{0,1}([A-Z]{3})){0,1}$",,,
+Brazil,general,0,"['BR', 'BRA']","['PP', 'PQ', 'PS', 'PV', 'PW', 'PX', 'PY', 'ZV', 'ZW', 'ZX', 'ZY', 'ZZ']",['AAA-ZZZ'],"^(PP|PQ|PS|PV|PW|PX|PY|ZV|ZW|ZX|ZY|ZZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",E40000,E7FFFF,"['E4', 'E5', 'E6', 'E7']"
+Brazil,general,0,"['BR', 'BRA']","['PR', 'PT']",['AAA-YZZ'],"^(PR|PT)(-{0,1}(([A-Y][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",E40000,E7FFFF,"['E4', 'E5', 'E6', 'E7']"
+Brazil,experimental non-LSA aircraft,1,"['BR', 'BRA']","['PR', 'PT']",['ZAA-ZZZ'],"^(PR|PT)(-{0,1}(Z[A-Z]{2})){0,1}$",,,
+British Virgin Islands,general,0,"['VG', 'VGB']",['VP-L'],['AA-ZZ'],"^(VP-L)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Brunei,general,0,"['BN', 'BRN']",['V8'],"['AAA-ZZZ', 'AA1-ZZ9', '001-999']","^(V8)(-{0,1}(([A-Z]{3}|[A-Z]{2}[1-9]|[0-9][0-9][1-9])|[A-Z0-9]{1,4})){0,1}$",895000,8953FF,"['8950', '8951', '8952', '8953']"
+Bulgaria,general,0,"['BG', 'BGR']",['LZ'],['AAA-YZZ'],"^(LZ)(-{0,1}(([A-Y][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",450000,457FFF,"['450', '451', '452', '453', '454', '455', '456', '457']"
+Burkina Faso,general,0,"['BF', 'BFA']",['XT'],['AAA-ZZZ'],"^(XT)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",09C000,09CFFF,['09C']
+Burundi,general,0,"['BI', 'BDI']",['9U'],['AAA-ZZZ'],"^(9U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",032000,032FFF,['032']
+Cambodia,general,0,"['KH', 'KHM']",['XU'],['AAA-ZZZ'],"^(XU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",70E000,70EFFF,['70E']
+Cameroon,general,0,"['CM', 'CMR']",['TJ'],['AAA-ZZZ'],"^(TJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",034000,034FFF,['034']
+Canada,general,0,"['CA', 'CAN']",['C'],"['FAAA-FZZZ', 'GAAA-GZZZ']","^(C)(-{0,1}((F[A-Z]{3}|G[A-Z]{3})|[A-Z0-9]{1,4})){0,1}$",C00000,C3FFFF,"['C0', 'C1', 'C2', 'C3']"
+Canada,ultralight aeroplanes,1,"['CA', 'CAN']",['C'],['IAAA-IZZZ'],"^(C)(-{0,1}(I[A-Z]{3})){0,1}$",,,
+Canada,Newfoundland prior to merging with Canada in 1949,1,"['CA', 'CAN']",['VO'],['AAA-ZZZ'],"^(VO)(-{0,1}([A-Z]{3})){0,1}$",,,
+Canada,general,0,"['CA', 'CAN']","['C', 'CF', 'CG', 'CH', 'CJ', 'CK', 'CY', 'CZ', 'VA', 'VB', 'VC', 'VD', 'VE', 'VF', 'VG', 'VX', 'VY', 'XJ', 'XK', 'XL', 'XM', 'XN', 'XO', 'VO']",['AAA-ZZZ'],"^(C|CF|CG|CH|CJ|CK|CY|CZ|VA|VB|VC|VD|VE|VF|VG|VX|VY|XJ|XK|XL|XM|XN|XO|VO)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",C00000,C3FFFF,"['C0', 'C1', 'C2', 'C3']"
+Cape Verde or Cabo Verde,general,0,"['CV', 'CPV']",['D4'],['AAA-ZZZ'],"^(D4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Cayman Islands,general,0,"['KY', 'CYM']",['VP-C'],['AA-ZZ'],"^(VP-C)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Central African Republic,general,0,"['CF', 'CAF']",['TL'],['AAA-ZZZ'],"^(TL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",06C000,06CFFF,['06C']
+Chad,general,0,"['TD', 'TCD']",['TT'],['AAA-ZZZ'],"^(TT)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",084000,084FFF,['084']
+Chile,general,0,"['CL', 'CHL']","['CA', 'CB', 'CC', 'CD', 'CE', 'XQ', 'XR', '3G']",['AAA-ZZZ'],"^(CA|CB|CC|CD|CE|XQ|XR|3G)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",E80000,E80FFF,['E80']
+Chile,commercial aircraft,1,"['CL', 'CHL']",['CC'],['CAA-CZZ'],"^(CC)(-{0,1}(C[A-Z]{2})){0,1}$",,,
+Chile,Chile's Aviation Directorate planes including those from the Aviation Museum,1,"['CL', 'CHL']",['CC'],['DAA-DZZ'],"^(CC)(-{0,1}(D[A-Z]{2})){0,1}$",,,
+Chile,government aircraft,1,"['CL', 'CHL']",['CC'],['EAA-EZZ'],"^(CC)(-{0,1}(E[A-Z]{2})){0,1}$",,,
+Chile,aero clubs northern zone,1,"['CL', 'CHL']",['CC'],['NAA-NZZ'],"^(CC)(-{0,1}(N[A-Z]{2})){0,1}$",,,
+Chile,aero clubs central zone,1,"['CL', 'CHL']",['CC'],"['KAA-KZZ', 'LAA-LZZ']","^(CC)(-{0,1}(K[A-Z]{2}|L[A-Z]{2})){0,1}$",,,
+Chile,aero clubs southern zone,1,"['CL', 'CHL']",['CC'],"['SAA-SZZ', 'TAA-TZZ']","^(CC)(-{0,1}(S[A-Z]{2}|T[A-Z]{2})){0,1}$",,,
+Chile,aero clubs Patagonian area,1,"['CL', 'CHL']",['CC'],['MAA-MZZ'],"^(CC)(-{0,1}(M[A-Z]{2})){0,1}$",,,
+Chile,aero clubs private aircraft,1,"['CL', 'CHL']",['CC'],['PAA-PZZ'],"^(CC)(-{0,1}(P[A-Z]{2})){0,1}$",,,
+China,general,0,"['CN', 'CHN']","['B', 'XS', '3H', '3I', '3J', '3K', '3L', '3M', '3N', '3O', '3P', '3Q', '3R', '3S', '3T', '3U', 'VR', 'XX']","['0000-9999', '000A-999Z', '00AA-99ZZ']","^(B|XS|3H|3I|3J|3K|3L|3M|3N|3O|3P|3Q|3R|3S|3T|3U|VR|XX)(-{0,1}(([0-9]{4}|[0-9]{3}[A-Z]|[0-9][0-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",780000,7BFFFF,"['78', '79', '7A', '7B']"
+Colombia,microlights,1,"['CO', 'COL']",['HJ'],['1000A-9999Z'],"^(HJ)(-{0,1}([1-9][0-9]{3}[A-Z])){0,1}$",,,
+Colombia,general,0,"['CO', 'COL']","['HK', '5J', '5K']",['1000A-9999Z'],"^(HK|5J|5K)(-{0,1}(([1-9][0-9]{3}[A-Z])|[A-Z0-9]{1,4})){0,1}$",0AC000,0ACFFF,['0AC']
+Comoros,general,0,"['KM', 'COM']",['D6'],['AAA-ZZZ'],"^(D6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",035000,0353FF,"['0350', '0351', '0352', '0353']"
+Congo Democratic Republic,general,0,"['CD', 'COD']","['9O', '9P', '9Q', '9R', '9S', '9T']",['AAA-ZZZ'],"^(9O|9P|9Q|9R|9S|9T)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Congo Republic,general,0,"['CG', 'COG']",['TN'],['AAA-ZZZ'],"^(TN)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Cook Islands,general,0,"['CK', 'COK']",['E5'],['AAA-ZZZ'],"^(E5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",901000,9013FF,"['9010', '9011', '9012', '9013']"
+Costa Rica,general,0,"['CR', 'CRI']","['TE', 'TI']",['AAA-ZZZ'],"^(TE|TI)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0AE000,0AEFFF,['0AE']
+Costa Rica,ultralight aircraft,1,"['CR', 'CRI']","['TE', 'TI']",['000-999'],"^(TE|TI)(-{0,1}([0-9]{3})){0,1}$",,,
+Croatia,general,0,"['HR', 'HRV']",['9A'],['AAA-ZZZ'],"^(9A)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",501C00,501FFF,"['501C', '501D', '501E', '501F']"
+Croatia,gliders,1,"['HR', 'HRV']",['9A'],['GAA-GZZ'],"^(9A)(-{0,1}(G[A-Z]{2})){0,1}$",,,
+Croatia,helicopters,1,"['HR', 'HRV']",['9A'],['HAA-HZZ'],"^(9A)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Croatia,balloons,1,"['HR', 'HRV']",['9A'],['OAA-OZZ'],"^(9A)(-{0,1}(O[A-Z]{2})){0,1}$",,,
+Croatia,ultralight aircraft,1,"['HR', 'HRV']",['9A'],['UAA-UZZ'],"^(9A)(-{0,1}(U[A-Z]{2})){0,1}$",,,
+Cuba,agricultural,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['A1000-A1999'],"^(CL|CM|CO|T4)(-{0,1}(A1[0-9]{3})){0,1}$",,,
+Cuba,cargo,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['C1000-C1999'],"^(CL|CM|CO|T4)(-{0,1}(C1[0-9]{3})){0,1}$",,,
+Cuba,helicopters,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['H1000-H1999'],"^(CL|CM|CO|T4)(-{0,1}(H1[0-9]{3})){0,1}$",,,
+Cuba,private,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['N1000-N1999'],"^(CL|CM|CO|T4)(-{0,1}(N1[0-9]{3})){0,1}$",,,
+Cuba,commercial,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['T1000-T1999'],"^(CL|CM|CO|T4)(-{0,1}(T1[0-9]{3})){0,1}$",,,
+Cuba,ultralights,1,"['CU', 'CUB']","['CL', 'CM', 'CO', 'T4']",['U1000-U1999'],"^(CL|CM|CO|T4)(-{0,1}(U1[0-9]{3})){0,1}$",,,
+Cuba,general,0,"['CU', 'CUB']","['CU', 'CL', 'CM', 'CO', 'T4']",['AAA-ZZZ'],"^(CU|CL|CM|CO|T4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0B0000,0B0FFF,['0B0']
+Cyprus,general,0,"['CY', 'CYP']","['C4', 'H2', 'P3', '5B']",['AAA-ZZZ'],"^(C4|H2|P3|5B)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4C8000,4C83FF,"['4C80', '4C81', '4C82', '4C83']"
+Czech Republic,general,0,"['CZ', 'CZE']","['OK', 'OL']",['AAA-ZZZ'],"^(OK|OL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",498000,49FFFF,"['498', '499', '49A', '49B', '49C', '49D', '49E', '49F']"
+Czech Republic,microlights,1,"['CZ', 'CZE']","['OK', 'OL']",['AAA00-ZZZ99'],"^(OK|OL)(-{0,1}([A-Z]{3}[0-9][0-9])){0,1}$",,,
+Czech Republic,gliders and balloons,1,"['CZ', 'CZE']","['OK', 'OL']",['0000-9999'],"^(OK|OL)(-{0,1}([0-9]{4})){0,1}$",,,
+Czech Republic,ultralights,1,"['CZ', 'CZE']","['OK', 'OL']",['A000-A999'],"^(OK|OL)(-{0,1}(A[0-9]{3})){0,1}$",,,
+Czech Republic,unmanned aircraft,1,"['CZ', 'CZE']","['OK', 'OL']",['X000A-X999Z'],"^(OK|OL)(-{0,1}(X[0-9]{3}[A-Z])){0,1}$",,,
+Denmark,general,0,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['AAA-ZZZ'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",458000,45FFFF,"['458', '459', '45A', '45B', '45C', '45D', '45E', '45F']"
+Denmark,helicopters and gliders,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['HAA-HZZ'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Denmark,balloons,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['BAA-BZZ'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(B[A-Z]{2})){0,1}$",,,
+Denmark,ultralight trikes,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['81-8999'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(8[1-9][0-9]{0,2})){0,1}$",,,
+Denmark,ultralight 3-axis,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['91-9999'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(9[1-9][0-9]{0,2})){0,1}$",,,
+Denmark,ultralight gyro,1,"['DK', 'DNK']","['OU', 'OV', 'OW', 'OX', 'OY', 'OZ', 'XP', '5P', '5Q']",['1001-1999'],"^(OU|OV|OW|OX|OY|OZ|XP|5P|5Q)(-{0,1}(1[0-9][0-9][1-9])){0,1}$",,,
+Djibouti,general,0,"['DJ', 'DJI']",['J2'],['AAA-ZZZ'],"^(J2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",098000,0983FF,"['0980', '0981', '0982', '0983']"
+Dominica,general,0,"['DM', 'DMA']",['J7'],['AAA-ZZZ'],"^(J7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Dominican Republic,general,0,"['DO', 'DOM']",['HI'],['100AA-999ZZ'],"^(HI)(-{0,1}(([1-9][0-9][0-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",0C4000,0C4FFF,['0C4']
+Ecuador,general,0,"['EC', 'ECU']","['HC', 'HD']",['AAA-ZZZ'],"^(HC|HD)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",E84000,E84FFF,['E84']
+Egypt,general,0,"['EG', 'EGY']","['SSA', 'SSB', 'SSC', 'SSD', 'SSE', 'SSF', 'SSG', 'SSH', 'SSI', 'SSJ', 'SSK', 'SSL', 'SSM', 'SSM', 'SU', '6A', '6B']","['AAA-XXZ', 'ZAA-ZZZ']","^(SSA|SSB|SSC|SSD|SSE|SSF|SSG|SSH|SSI|SSJ|SSK|SSL|SSM|SSM|SU|6A|6B)(-{0,1}(([A-X][A-X][A-Z]|Z[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",010000,017FFF,"['010', '011', '012', '013', '014', '015', '016', '017']"
+Egypt,gliders and balloons,1,"['EG', 'EGY']","['SSA', 'SSB', 'SSC', 'SSD', 'SSE', 'SSF', 'SSG', 'SSH', 'SSI', 'SSJ', 'SSK', 'SSL', 'SSM', 'SSM', 'SU', '6A', '6B']",['001-999'],"^(SSA|SSB|SSC|SSD|SSE|SSF|SSG|SSH|SSI|SSJ|SSK|SSL|SSM|SSM|SU|6A|6B)(-{0,1}([0-9][0-9][1-9])){0,1}$",,,
+El Salvador,general,0,"['SV', 'SLV']","['HU', 'YS']",['AAA-ZZZ'],"^(HU|YS)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0B2000,0B2FFF,['0B2']
+Equatorial Guinea,general,0,"['GQ', 'GNQ']",['3C'],['AAA-ZZZ'],"^(3C)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",042000,042FFF,['042']
+Eritrea,general,0,"['ER', 'ERI']",['E3'],['AAAA-ZZZZ'],"^(E3)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$",202000,2023FF,"['2020', '2021', '2022', '2023']"
+Estonia,general,0,"['EE', 'EST']",['ES'],['AAA-ZZZ'],"^(ES)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",511000,5113FF,"['5110', '5111', '5112', '5113']"
+Ethiopia,general,0,"['ET', 'ETH']","['ET', '9E', '9F']",['AAA-ZZZ'],"^(ET|9E|9F)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",040000,040FFF,['040']
+Falk Islands,general,0,"['FK', 'FLK']",['VP-F'],['AA-ZZ'],"^(VP-F)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Faroe Islands,general,0,"['FO', 'FRO']",['OY-H'],['AA-ZZ'],"^(OY-H)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Fiji,general,0,"['FJ', 'FJI']","['DQ', '3DN', '3DO', '3DP', '3DQ', '3DR', '3DS', '3DT', '3DU', '3DV', '3DW', '3DX', '3DY', '3DZ']",['AAA-ZZZ'],"^(DQ|3DN|3DO|3DP|3DQ|3DR|3DS|3DT|3DU|3DV|3DW|3DX|3DY|3DZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",C88000,C88FFF,['C88']
+Finland,general,0,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['AAA-ZZZ'],"^(OF|OG|OH|OI|OJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",460000,467FFF,"['460', '461', '462', '463', '464', '465', '466', '467']"
+Finland,gliders,1,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['001-999'],"^(OF|OG|OH|OI|OJ)(-{0,1}([0-9][0-9][1-9])){0,1}$",,,
+Finland,autogyro,1,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['G001-G999'],"^(OF|OG|OH|OI|OJ)(-{0,1}(G[0-9][0-9][1-9])){0,1}$",,,
+Finland,ultralights,1,"['FI', 'FIN']","['OF', 'OG', 'OH', 'OI', 'OJ']",['U001-U999'],"^(OF|OG|OH|OI|OJ)(-{0,1}(U[0-9][0-9][1-9])){0,1}$",,,
+France,general,0,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['AAAA-ZZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$",380000,3BFFFF,"['38', '39', '3A', '3B']"
+France,historic,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['AYAA-AZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(A[Y-Z][A-Z]{2})){0,1}$",,,
+France,gliders,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['CAAA-CZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(C[A-Z]{3})){0,1}$",,,
+France,overseas territories,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['OAAA-OZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(O[A-Z]{3})){0,1}$",,,
+France,homebuilt,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['PAAA-PZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(P[A-Z]{3})){0,1}$",,,
+France,test and delivery,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['WAAA-WZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(W[A-Z]{3})){0,1}$",,,
+France,state owened,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']",['ZAAA-ZZZZ'],"^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}(Z[A-Z]{3})){0,1}$",,,
+France,ultralights,1,"['FR', 'FRA']","['F', 'HW', 'HX', 'HY', 'TH', 'TK', 'TM', 'TO', 'TP', 'TQ', 'TV', 'TW', 'TX']","['00AA-99ZZ', '000AA-999ZZ', '00AAA-99ZZZ', '000AAA-999ZZZ', '69MAA-69MZZ', '69MAAA-69MZZZ']","^(F|HW|HX|HY|TH|TK|TM|TO|TP|TQ|TV|TW|TX)(-{0,1}([0-9][0-9][A-Z]{2}|[0-9]{3}[A-Z]{2}|[0-9][0-9][A-Z]{3}|[0-9]{3}[A-Z]{3}|69M[A-Z]{2}|69M[A-Z]{3})){0,1}$",,,
+Gabon,general,0,"['GA', 'GAB']",['TR'],['AAA-ZZZ'],"^(TR)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",03E000,03EFFF,['03E']
+Gambia,general,0,"['GM', 'GMB']",['C5'],['AAA-ZZZ'],"^(C5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",09A000,09AFFF,['09A']
+Georgia,general,0,"['GE', 'GEO']",['4L'],"['AAA-ZZZ', '10000-99999']","^(4L)(-{0,1}(([A-Z]{3}|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",514000,5143FF,"['5140', '5141', '5142', '5143']"
+Germany,general,0,"['DE', 'DEU']","['D', 'DA', 'DB', 'DC', 'DD', 'DE', 'DF', 'DG', 'DH', 'DI', 'DJ', 'DK', 'DL', 'DM', 'DN', 'DO', 'DP', 'DR', 'Y2', 'Y3', 'Y4', 'Y5', 'Y6', 'Y7', 'Y8', 'Y9']",['AAA-ZZZ'],"^(D|DA|DB|DC|DD|DE|DF|DG|DH|DI|DJ|DK|DL|DM|DN|DO|DP|DR|Y2|Y3|Y4|Y5|Y6|Y7|Y8|Y9)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",3C0000,3FFFFF,"['3C', '3D', '3E', '3F']"
+Germany,heavy > 20 t MTOW,1,"['DE', 'DEU']",['D'],['AAAA-AZZZ'],"^(D)(-{0,1}(A[A-Z]{3})){0,1}$",,,
+Germany,test registrations,1,"['DE', 'DEU']",['D'],['AUAA-AZZZ'],"^(D)(-{0,1}(A[U-Z][A-Z]{2})){0,1}$",,,
+Germany,medium 14 - 20 t MTOW,1,"['DE', 'DEU']",['D'],['BAAA-BZZZ'],"^(D)(-{0,1}(B[A-Z]{3})){0,1}$",,,
+Germany,light 5.7 - 14 t MTOW,1,"['DE', 'DEU']",['D'],['CAAA-CZZZ'],"^(D)(-{0,1}(C[A-Z]{3})){0,1}$",,,
+Germany,single-engine up to 2 t MTOW,1,"['DE', 'DEU']",['D'],['EAAA-EZZZ'],"^(D)(-{0,1}(E[A-Z]{3})){0,1}$",,,
+Germany,single-engine up to 2 - 5.7 t MTOW,1,"['DE', 'DEU']",['D'],['FAAA-FZZZ'],"^(D)(-{0,1}(F[A-Z]{3})){0,1}$",,,
+Germany,multi-engine up to 2 t MTOW,1,"['DE', 'DEU']",['D'],['GAAA-GZZZ'],"^(D)(-{0,1}(G[A-Z]{3})){0,1}$",,,
+Germany,rotocraft,1,"['DE', 'DEU']",['D'],['HAAA-HZZZ'],"^(D)(-{0,1}(H[A-Z]{3})){0,1}$",,,
+Germany,multi-engine up to 2 - 5.7 t MTOW,1,"['DE', 'DEU']",['D'],['IAAA-IZZZ'],"^(D)(-{0,1}(I[A-Z]{3})){0,1}$",,,
+Germany,powered gliders,1,"['DE', 'DEU']",['D'],['KAAA-KZZZ'],"^(D)(-{0,1}(K[A-Z]{3})){0,1}$",,,
+Germany,airships,1,"['DE', 'DEU']",['D'],['LAAA-LZZZ'],"^(D)(-{0,1}(L[A-Z]{3})){0,1}$",,,
+Germany,powered ultralights,1,"['DE', 'DEU']",['D'],['MAAA-MZZZ'],"^(D)(-{0,1}(M[A-Z]{3})){0,1}$",,,
+Germany,unpowered ultralights,1,"['DE', 'DEU']",['D'],['NAAA-NZZZ'],"^(D)(-{0,1}(N[A-Z]{3})){0,1}$",,,
+Germany,balloons,1,"['DE', 'DEU']",['D'],['OAAA-OZZZ'],"^(D)(-{0,1}(O[A-Z]{3})){0,1}$",,,
+Germany,gliders,1,"['DE', 'DEU']",['D'],['0001-9999'],"^(D)(-{0,1}([0-9]{3}[1-9])){0,1}$",,,
+Ghana,general,0,"['GH', 'GHA']",['9G'],['AAA-ZZZ'],"^(9G)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",044000,044FFF,['044']
+Gibraltar,general,0,"['GI', 'GIB']",['VP-G'],['AA-ZZ'],"^(VP-G)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Greece,general,0,"['GR', 'GRC']","['J4', 'SV', 'SW', 'SX', 'SY', 'SZ']",['AAA-ZZZ'],"^(J4|SV|SW|SX|SY|SZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",468000,46FFFF,"['468', '469', '46A', '46B', '46C', '46D', '46E', '46F']"
+Greenland,general,0,"['GL', 'GRL']",['OY-H'],['AA-ZZ'],"^(OY-H)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Grenada,general,0,"['GD', 'GRD']",['J3'],['AAA-ZZZ'],"^(J3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0CC000,0CC3FF,"['0CC0', '0CC1', '0CC2', '0CC3']"
+Guatemala,general,0,"['GT', 'GTM']","['TD', 'TG']",['AAA-ZZZ'],"^(TD|TG)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0B4000,0B4FFF,['0B4']
+Guinea,general,0,"['GN', 'GIN']",['3X'],['AAA-ZZZ'],"^(3X)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",046000,046FFF,['046']
+Guinea-Bissau,general,0,"['GW', 'GNB']",['J5'],['AAA-ZZZ'],"^(J5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",048000,0483FF,"['0480', '0481', '0482', '0483']"
+Guernsey,general,0,"['GG', 'GGY']",['2'],['AAAA-ZZZZ'],"^(2)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$",,,
+Guyana,general,0,"['GY', 'GUY']",['8R'],['AAA-ZZZ'],"^(8R)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0B6000,0B6FFF,['0B6']
+Haiti,general,0,"['HT', 'HTI']","['HH', '4V']",['AAA-ZZZ'],"^(HH|4V)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0B8000,0B8FFF,['0B8']
+Honduras,general,0,"['HN', 'HND']","['HQ', 'HR']",['AAA-ZZZ'],"^(HQ|HR)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0BA000,0BAFFF,['0BA']
+Hong Kong,general,0,"['HK', 'HKG']","['B-H', 'B-K', 'B-L']",['AA-ZZ'],"^(B-H|B-K|B-L)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Hungary,general,0,"['HU', 'HUN']","['HA', 'HG']",['AAA-ZZZ'],"^(HA|HG)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",470000,477FFF,"['470', '471', '472', '473', '474', '475', '476', '477']"
+Hungary,gliders,1,"['HU', 'HUN']","['HA', 'HG']",['1111-9999'],"^(HA|HG)(-{0,1}([1-9][1-9][1-9][1-9])){0,1}$",,,
+Hungary,ultralights and moter-gliders,1,"['HU', 'HUN']","['HA', 'HG']",['1111-9999'],"^(HA|HG)(-{0,1}([1-9][1-9][1-9][1-9])){0,1}$",,,
+Iceland,general,0,"['IS', 'ISL']",['TF'],['AAA-ZZZ'],"^(TF)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4CC000,4CCFFF,['4CC']
+Iceland,microlights,1,"['IS', 'ISL']",['TF'],['100-999'],"^(TF)(-{0,1}([1-9][0-9][0-9])){0,1}$",,,
+India,general,0,"['IN', 'IND']","['AT', 'AU', 'AV', 'AW', 'VT', 'VU', 'VV', 'VW', '8T', '8U', '8V', '8W', '8X', '8Y']",['AAA-ZZZ'],"^(AT|AU|AV|AW|VT|VU|VV|VW|8T|8U|8V|8W|8X|8Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",800000,83FFFF,"['80', '81', '82', '83']"
+Indonesia,general,0,"['ID', 'IDN']","['JZ', 'PK', 'PL', 'PM', 'PN', 'PO', 'YB', 'YC', 'YD', 'YE', 'YF', 'YG', 'YH', '7A', '7B', '7C', '7D', '7E', '7F', '7G', '7H', '7I', '8A', '8B', '8C', '8D', '8E', '8F', '8G', '8H', '8I']",['AAA-ZZZ'],"^(JZ|PK|PL|PM|PN|PO|YB|YC|YD|YE|YF|YG|YH|7A|7B|7C|7D|7E|7F|7G|7H|7I|8A|8B|8C|8D|8E|8F|8G|8H|8I)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",8A0000,8A7FFF,"['8A0', '8A1', '8A2', '8A3', '8A4', '8A5', '8A6', '8A7']"
+Iran,general,0,"['IR', 'IRN']","['EP', 'EQ', '9B', '9C', '9D']",['AAA-ZZZ'],"^(EP|EQ|9B|9C|9D)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",730000,737FFF,"['730', '731', '732', '733', '734', '735', '736', '737']"
+Iraq,general,0,"['IQ', 'IRQ']","['HN', 'YI']",['AAA-ZZZ'],"^(HN|YI)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",728000,72FFFF,"['728', '729', '72A', '72B', '72C', '72D', '72E', '72F']"
+Ireland,general,0,"['IE', 'IRL']","['EI', 'EJ']",['AAA-ZZZ'],"^(EI|EJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4CA000,4CAFFF,['4CA']
+Ireland,VIP or business,1,"['IE', 'IRL']","['EI', 'EJ']",['AAAA-ZZZZ'],"^(EI|EJ)(-{0,1}([A-Z]{4})){0,1}$",,,
+Isle of Man,general,0,"['IM', 'IMN']",['M'],['AAAA-ZZZZ'],"^(M)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$",,,
+Israel,general,0,"['IL', 'ISR']","['4X', '4Z']",['AAA-ZZZ'],"^(4X|4Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",738000,73FFFF,"['738', '739', '73A', '73B', '73C', '73D', '73E', '73F']"
+Italy,general,0,"['IT', 'ITA']",['I'],"['AAAA-ZZZZ', '0001-Z999']","^(I)(-{0,1}(([A-Z]{4}|[0-Z][0-9][0-9][1-9])|[A-Z0-9]{1,4})){0,1}$",300000,33FFFF,"['30', '31', '32', '33']"
+Ivory Coast or Cote d'Ivoire,general,0,"['CI', 'CIV']",['TU'],['AAA-ZZZ'],"^(TU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Jamaica,general,0,"['JM', 'JAM']",['6Y'],['AAA-ZZZ'],"^(6Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0BE000,0BEFFF,['0BE']
+Japan,general,0,"['JP', 'JPN']","['JA', 'JB', 'JC', 'JD', 'JE', 'JF', 'JG', 'JH', 'JI', 'JJ', 'JK', 'JL', 'JM', 'JN', 'JO', 'JP', 'JQ', 'JR', 'JS', '7J', '7K', '7L', '7M', '7N', '8J', '8K', '8L', '8M', '8N']","['0001-9999', '001A-999Z', '01AA-99ZZ']","^(JA|JB|JC|JD|JE|JF|JG|JH|JI|JJ|JK|JL|JM|JN|JO|JP|JQ|JR|JS|7J|7K|7L|7M|7N|8J|8K|8L|8M|8N)(-{0,1}(([0-9]{3}[1-9]|[0-9][0-9][1-9][A-Z]|[0-9][1-9][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",840000,87FFFF,"['84', '85', '86', '87']"
+Japan,balloons,1,"['JP', 'JPN']","['JA', 'JB', 'JC', 'JD', 'JE', 'JF', 'JG', 'JH', 'JI', 'JJ', 'JK', 'JL', 'JM', 'JN', 'JO', 'JP', 'JQ', 'JR', 'JS', '7J', '7K', '7L', '7M', '7N', '8J', '8K', '8L', '8M', '8N']",['A001-A999'],"^(JA|JB|JC|JD|JE|JF|JG|JH|JI|JJ|JK|JL|JM|JN|JO|JP|JQ|JR|JS|7J|7K|7L|7M|7N|8J|8K|8L|8M|8N)(-{0,1}(A[0-9][0-9][1-9])){0,1}$",,,
+Jordan,general,0,"['JO', 'JOR']",['JY'],['AAA-ZZZ'],"^(JY)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",740000,747FFF,"['740', '741', '742', '743', '744', '745', '746', '747']"
+Kazakhstan,general,0,"['KZ', 'KAZ']","['UN', 'UO', 'UP', 'UQ']",['AAA01-ZZZ99'],"^(UN|UO|UP|UQ)(-{0,1}(([A-Z]{3}[0-9][1-9])|[A-Z0-9]{1,4})){0,1}$",683000,6833FF,"['6830', '6831', '6832', '6833']"
+Kenya,general,0,"['KE', 'KEN']","['5Y', '5Z']",['AAA-ZZZ'],"^(5Y|5Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",04C000,04CFFF,['04C']
+Kiribati,general,0,"['KI', 'KIR']",['T3'],['AAA-ZZZ'],"^(T3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",C8E000,C8E3FF,"['C8E0', 'C8E1', 'C8E2', 'C8E3']"
+North Korea,general,0,"['KP', 'PRK']","['HM', 'P5', 'P6', 'P7', 'P8', 'P9']",['500-999'],"^(HM|P5|P6|P7|P8|P9)(-{0,1}(([5-9][0-9][0-9])|[A-Z0-9]{1,4})){0,1}$",,,
+South Korea,ultralights,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['C000-C999'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(C[0-9]{3})){0,1}$",,,
+South Korea,gliders,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['0000-0599'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(0[0-5][0-9][0-9])){0,1}$",,,
+South Korea,airships,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['0600-0799'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(0[6-7][0-9][0-9])){0,1}$",,,
+South Korea,piston engines,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']","['1000-1799', '2000-2099']","^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(1[0-7][0-9][0-9]|20[0-9][0-9])){0,1}$",,,
+South Korea,turboprops,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['5100-5499'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(5[1-4][0-9][0-9])){0,1}$",,,
+South Korea,piston engine helicopters,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['6100-6199'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(61[0-9][0-9])){0,1}$",,,
+South Korea,single turbojets,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['7100-7199'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(71[0-9][0-9])){0,1}$",,,
+South Korea,twin-jet aircrafts,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']","['7200-7299', '7500-7599', '7700-7799', '7800-7899', '8000-8099', '8200-8299']","^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(72[0-9][0-9]|75[0-9][0-9]|77[0-9][0-9]|78[0-9][0-9]|80[0-9][0-9]|82[0-9][0-9])){0,1}$",,,
+South Korea,tri-jet aircrafts,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['7300-7399'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(73[0-9][0-9])){0,1}$",,,
+South Korea,quad-jet aircrafts,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']","['7400-7499', '7600-7699', '8400-8499', '8600-8699']","^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(74[0-9][0-9]|76[0-9][0-9]|84[0-9][0-9]|86[0-9][0-9])){0,1}$",,,
+South Korea,turboshaft helicopters,1,"['KR', 'KOR']","['DS', 'DT', 'D7', 'D8', 'D9', 'HL', '6K', '6L', '6M', '6N']",['9100-9699'],"^(DS|DT|D7|D8|D9|HL|6K|6L|6M|6N)(-{0,1}(9[1-6][0-9][0-9])){0,1}$",,,
+Kosovo,general,0,"['XK', 'XKX']",['Z6'],['AAA-ZZZ'],"^(Z6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Kuwait,general,0,"['KW', 'KWT']",['9K'],['AAA-ZZZ'],"^(9K)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",706000,706FFF,['706']
+Kyrgyzstan,general,0,"['KG', 'KGZ']",['EX'],"['100-999', '10000-99999']","^(EX)(-{0,1}(([1-9][0-9][0-9]|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",601000,6013FF,"['6010', '6011', '6012', '6013']"
+Laos,general,0,"['LA', 'LAO']","['XW', 'RDPL']",['10000-99999'],"^(XW|RDPL)(-{0,1}(([1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",708000,708FFF,['708']
+Latvia,general,0,"['LV', 'LVA']",['YL'],['AAA-ZZZ'],"^(YL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",502C00,502FFF,"['502C', '502D', '502E', '502F']"
+Lebanon,general,0,"['LB', 'LBN']",['OD'],['AAA-ZZZ'],"^(OD)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",748000,74FFFF,"['748', '749', '74A', '74B', '74C', '74D', '74E', '74F']"
+Lesotho,general,0,"['LS', 'LSO']",['7P'],['AAA-ZZZ'],"^(7P)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",04A000,04A3FF,"['04A0', '04A1', '04A2', '04A3']"
+Liberia,general,0,"['LR', 'LBR']","['A8', 'D5', 'EL', '5L', '5M', '6Z']",['AAA-ZZZ'],"^(A8|D5|EL|5L|5M|6Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",050000,050FFF,['050']
+Libya,general,0,"['LY', 'LBY']",['5A'],['AAA-ZZZ'],"^(5A)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",018000,01FFFF,"['018', '019', '01A', '01B', '01C', '01D', '01E', '01F']"
+Liechtenstein,general,0,"['LI', 'LIE']","['HB', 'HB0', 'HB3Y', 'HBL']",['AAA-ZZZ'],"^(HB|HB0|HB3Y|HBL)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Lithuania,general,0,"['LT', 'LTU']",['LY'],['AAA-ZZZ'],"^(LY)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",503C00,503FFF,"['503C', '503D', '503E', '503F']"
+Luxembourg,balloons,1,"['LU', 'LUX']",['LX'],['BAA-BZZ'],"^(LX)(-{0,1}(B[A-Z]{2})){0,1}$",,,
+Luxembourg,gliders,1,"['LU', 'LUX']",['LX'],['CAA-CZZ'],"^(LX)(-{0,1}(C[A-Z]{2})){0,1}$",,,
+Luxembourg,helicopters,1,"['LU', 'LUX']",['LX'],['HZZ-HZZ'],"^(LX)(-{0,1}(HZZ)){0,1}$",,,
+Luxembourg,NATO AWACS,1,"['LU', 'LUX']",['LX'],['N90442-N90459'],"^(LX)(-{0,1}(N904[4-5][2-9])){0,1}$",,,
+Luxembourg,ultralights,1,"['LU', 'LUX']",['LX'],['XAA-XZZ'],"^(LX)(-{0,1}(X[A-Z]{2})){0,1}$",,,
+Macau or Macao,general,0,"['MO', 'MAC']",['B-M'],['AA-ZZ'],"^(B-M)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Macedonia,general,0,"['MK', 'MKD']",['Z3'],['AAA-ZZZ'],"^(Z3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",512000,5123FF,"['5120', '5121', '5122', '5123']"
+Macedonia,helicopters,1,"['MK', 'MKD']",['Z3'],['HAA-HZZ'],"^(Z3)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Macedonia,ultralights,1,"['MK', 'MKD']",['Z3'],['UA-001-UA-999'],"^(Z3)(-{0,1}(MANUAL)){0,1}$",,,
+Macedonia,balloons,1,"['MK', 'MKD']",['Z3'],['OAA-OZZ'],"^(Z3)(-{0,1}(O[A-Z]{2})){0,1}$",,,
+Madagascar,general,0,"['MG', 'MDG']","['5R', '5S', '6X']",['AAA-ZZZ'],"^(5R|5S|6X)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",054000,054FFF,['054']
+Malawi,general,0,"['MW', 'MWI']",['7Q'],['AAA-ZZZ'],"^(7Q)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",058000,058FFF,['058']
+Malaysia,general,0,"['MY', 'MYS']","['9M', '9W']",['AAA-ZZZ'],"^(9M|9W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",750000,757FFF,"['750', '751', '752', '753', '754', '755', '756', '757']"
+Malaysia,amateur-builts,1,"['MY', 'MYS']","['9M', '9W']",['EAA-EZZ'],"^(9M|9W)(-{0,1}(E[A-Z]{2})){0,1}$",,,
+Malaysia,ultralights,1,"['MY', 'MYS']","['9M', '9W']",['UAA-UZZ'],"^(9M|9W)(-{0,1}(U[A-Z]{2})){0,1}$",,,
+Maldives,general,0,"['MV', 'MDV']",['8Q'],['AAA-ZZZ'],"^(8Q)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",05A000,05A3FF,"['05A0', '05A1', '05A2', '05A3']"
+Mali,general,0,"['ML', 'MLI']",['TZ'],['AAA-ZZZ'],"^(TZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",05C000,05CFFF,['05C']
+Malta,general,0,"['MT', 'MLT']",['9H'],['AAA-ZZZ'],"^(9H)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4D2000,4D23FF,"['4D20', '4D21', '4D22', '4D23']"
+Marshall Islands,general,0,"['MH', 'MHL']",['V7'],['0001-9999'],"^(V7)(-{0,1}(([0-9]{3}[1-9])|[A-Z0-9]{1,4})){0,1}$",900000,9003FF,"['9000', '9001', '9002', '9003']"
+Mauritania,general,0,"['MR', 'MRT']",['5T'],['AAA-ZZZ'],"^(5T)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",05E000,05E3FF,"['05E0', '05E1', '05E2', '05E3']"
+Mauritius,general,0,"['MU', 'MUS']",['3B'],['AAA-ZZZ'],"^(3B)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",060000,0603FF,"['0600', '0601', '0602', '0603']"
+Mexico,general,0,"['MX', 'MEX']","['XA', 'XB', 'XC', 'XD', 'XE', 'XF', 'XG', 'XH', 'XI', '4A', '4B', '4C', '6D', '6E', '6F', '6G', '6H', '6I', '6J']",['AAA-ZZZ'],"^(XA|XB|XC|XD|XE|XF|XG|XH|XI|4A|4B|4C|6D|6E|6F|6G|6H|6I|6J)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0D0000,0D7FFF,"['0D0', '0D1', '0D2', '0D3', '0D4', '0D5', '0D6', '0D7']"
+Mexico,commercial,1,"['MX', 'MEX']",['XA'],['AAA-ZZZ'],"^(XA)(-{0,1}([A-Z]{3})){0,1}$",,,
+Mexico,private,1,"['MX', 'MEX']",['XB'],['AAA-ZZZ'],"^(XB)(-{0,1}([A-Z]{3})){0,1}$",,,
+Mexico,government,1,"['MX', 'MEX']",['XC'],['AAA-ZZZ'],"^(XC)(-{0,1}([A-Z]{3})){0,1}$",,,
+Micronesia,general,0,"['FM', 'FSM']",['V6'],['AAA-ZZZ'],"^(V6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",681000,6813FF,"['6810', '6811', '6812', '6813']"
+Moldova,general,0,"['MD', 'MDA']",['ER'],"['AAA-ZZZ', '10000-99999']","^(ER)(-{0,1}(([A-Z]{3}|[1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",504C00,504FFF,"['504C', '504D', '504E', '504F']"
+Monaco,general,0,"['MC', 'MCO']",['3A'],['MAA-MZZ'],"^(3A)(-{0,1}((M[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",4D4000,4D43FF,"['4D40', '4D41', '4D42', '4D43']"
+Mongolia,general,0,"['MN', 'MNG']","['JT', 'JU', 'JV']",['1000-9999'],"^(JT|JU|JV)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$",682000,6823FF,"['6820', '6821', '6822', '6823']"
+Montenegro,general,0,"['ME', 'MNE']",['4O'],['AAA-ZZZ'],"^(4O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Montserrat,general,0,"['MS', 'MSR']",['VP-M'],['AA-ZZ'],"^(VP-M)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Morocco,general,0,"['MA', 'MAR']","['CN', '5C', '5D', '5E', '5F', '5G']",['AAA-ZZZ'],"^(CN|5C|5D|5E|5F|5G)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",020000,027FFF,"['020', '021', '022', '023', '024', '025', '026', '027']"
+Mozambique,general,0,"['MZ', 'MOZ']","['C8', 'C9']",['AAA-ZZZ'],"^(C8|C9)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",006000,006FFF,['006']
+Myanmar or Burma,general,0,"['MM', 'MMR']","['XY', 'XZ']",['AAA-ZZZ'],"^(XY|XZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Namibia,general,0,"['NA', 'NAM']",['V5'],['AAA-ZZZ'],"^(V5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",201000,2013FF,"['2010', '2011', '2012', '2013']"
+Nauru,general,0,"['NR', 'NRU']",['C2'],['AAA-ZZZ'],"^(C2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",C8A000,C8A3FF,"['C8A0', 'C8A1', 'C8A2', 'C8A3']"
+Nepal,general,0,"['NP', 'NPL']",['9N'],['AAA-ZZZ'],"^(9N)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",70A000,70AFFF,['70A']
+Nepal,government,1,"['NP', 'NPL']",['9N'],['RAA-RZZ'],"^(9N)(-{0,1}(R[A-Z]{2})){0,1}$",,,
+Netherlands,general,0,"['NL', 'NLD']","['PA', 'PB', 'PC', 'PD', 'PE', 'PF', 'PG', 'PH', 'PI']",['AAA-ZZZ'],"^(PA|PB|PC|PD|PE|PF|PG|PH|PI)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",480000,487FFF,"['480', '481', '482', '483', '484', '485', '486', '487']"
+Netherlands,drones,1,"['NL', 'NLD']",['PH'],['1AA-1ZZ'],"^(PH)(-{0,1}(1[A-Z]{2})){0,1}$",,,
+Netherlands,microlights,1,"['NL', 'NLD']",['PH'],['1A1-9Z9'],"^(PH)(-{0,1}([1-9][A-Z][1-9])){0,1}$",,,
+Netherlands,gliders,1,"['NL', 'NLD']",['PH'],['100-9999'],"^(PH)(-{0,1}([1-9][0-9][0-9]{1,2})){0,1}$",,,
+Netherlands Antilles or Curacao,general,0,"['AN', 'ANT']",['PJ'],['AAA-ZZZ'],"^(PJ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+New Zealand,general,0,"['NZ', 'NZL']","['ZK', 'ZL', 'ZM']",['***'],"^(ZK|ZL|ZM)(-{0,1}([A-Z0-9]{3}|[A-Z0-9]{1,4})){0,1}$",C80000,C87FFF,"['C80', 'C81', 'C82', 'C83', 'C84', 'C85', 'C86', 'C87']"
+New Zealand,historical,1,"['NZ', 'NZL']",['ZK'],"['A**', 'B**', 'G**', 'HA*']","^(ZK)(-{0,1}(A|[A-Z0-9]|[A-Z0-9]|B|[A-Z0-9]|[A-Z0-9]|G|[A-Z0-9]|[A-Z0-9]|HA[A-Z0-9])){0,1}$",,,
+New Zealand,balloons,1,"['NZ', 'NZL']",['ZK'],"['FA*', 'FB*']","^(ZK)(-{0,1}(F|A|[A-Z0-9]|FB[A-Z0-9])){0,1}$",,,
+New Zealand,gliders,1,"['NZ', 'NZL']",['ZK'],['G**'],"^(ZK)(-{0,1}(G[A-Z0-9]{2})){0,1}$",,,
+New Zealand,helicopters,1,"['NZ', 'NZL']",['ZK'],"['H**', 'I**']","^(ZK)(-{0,1}(H|[A-Z0-9]|[A-Z0-9]|I[A-Z0-9]{2})){0,1}$",,,
+New Zealand,gyrocopters,1,"['NZ', 'NZL']",['ZK'],"['R**', 'RB*', 'RC*', 'RD*']","^(ZK)(-{0,1}(R|[A-Z0-9]|[A-Z0-9]|R|B|[A-Z0-9]|R|C|[A-Z0-9]|RD[A-Z0-9])){0,1}$",,,
+New Zealand,ICAO prohibited,1,"['NZ', 'NZL']",['ZK'],['Q**'],"^(ZK)(-{0,1}(Q[A-Z0-9]{2})){0,1}$",,,
+Nicaragua,general,0,"['NI', 'NIC']","['HT', 'H6', 'H7', 'YN']",['AAA-ZZZ'],"^(HT|H6|H7|YN)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0C0000,0C0FFF,['0C0']
+Niger,general,0,"['NE', 'NER']",['5U'],['AAA-ZZZ'],"^(5U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",062000,062FFF,['062']
+Nigeria,general,0,"['NG', 'NGA']","['5N', '5O']",['AAA-ZZZ'],"^(5N|5O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",064000,064FFF,['064']
+Norway,general,0,"['NO', 'NOR']","['JW', 'JX', 'LA', 'LB', 'LC', 'LD', 'LE', 'LF', 'LG', 'LH', 'LI', 'LJ', 'LK', 'LL', 'LM', 'LN', '3Y']",['AAA-ZZZ'],"^(JW|JX|LA|LB|LC|LD|LE|LF|LG|LH|LI|LJ|LK|LL|LM|LN|3Y)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",478000,47FFFF,"['478', '479', '47A', '47B', '47C', '47D', '47E', '47F']"
+Norway,gliders,1,"['NO', 'NOR']",['LN'],['GAA-GZZ'],"^(LN)(-{0,1}(G[A-Z]{2})){0,1}$",,,
+Norway,helicopters,1,"['NO', 'NOR']",['LN'],['OAA-OZZ'],"^(LN)(-{0,1}(O[A-Z]{2})){0,1}$",,,
+Norway,balloons,1,"['NO', 'NOR']",['LN'],['CAA-CZZ'],"^(LN)(-{0,1}(C[A-Z]{2})){0,1}$",,,
+Norway,ultralights,1,"['NO', 'NOR']",['LN'],['YAA-YZZ'],"^(LN)(-{0,1}(Y[A-Z]{2})){0,1}$",,,
+Oman,general,0,"['OM', 'OMN']",['A4O'],['AA-ZZ'],"^(A4O)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",70C000,70C3FF,"['70C0', '70C1', '70C2', '70C3']"
+Pakistan,general,0,"['PK', 'PAK']","['AP', 'AQ', 'AR', 'AS', '6P', '6Q', '6R', '6S']",['AAA-ZZZ'],"^(AP|AQ|AR|AS|6P|6Q|6R|6S)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",760000,767FFF,"['760', '761', '762', '763', '764', '765', '766', '767']"
+Palau,general,0,"['PW', 'PLW']",['T8'],['AAA-ZZZ'],"^(T8)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",684000,6843FF,"['6840', '6841', '6842', '6843']"
+Palestinian Authority,general,0,"['PS', 'PSE']",['E4'],['AAA-ZZZ'],"^(E4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Palestinian Authority,general,0,"['PS', 'PSE']",['SU-Y'],['AA-ZZ'],"^(SU-Y)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Panama,general,0,"['PA', 'PAN']","['HO', 'HP', 'H3', 'H8', 'H9', '3E', '3F']",['AAA-ZZZ'],"^(HO|HP|H3|H8|H9|3E|3F)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0C2000,0C2FFF,['0C2']
+Papua New Guinea,general,0,"['PG', 'PNG']",['P2'],['AAA-ZZZ'],"^(P2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",898000,898FFF,['898']
+Paraguay,general,0,"['PY', 'PRY']",['ZP'],['AAA-ZZZ'],"^(ZP)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",E88000,E88FFF,['E88']
+Peru,general,0,"['PE', 'PER']","['OA', 'OB', 'OC', '4T']",['1000-9999'],"^(OA|OB|OC|4T)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$",E8C000,E8CFFF,['E8C']
+Philippines,general,0,"['PH', 'PHL']","['RP', 'DU', 'DV', 'DW', 'DX', 'DY', 'DZ', '4D', '4E', '4F', '4G', '4H', '4I']",['AAA-ZZZ'],"^(RP|DU|DV|DW|DX|DY|DZ|4D|4E|4F|4G|4H|4I)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",758000,75FFFF,"['758', '759', '75A', '75B', '75C', '75D', '75E', '75F']"
+Philippines,government,1,"['PH', 'PHL']",['RP'],['0001-9999'],"^(RP)(-{0,1}([0-9]{3}[1-9])){0,1}$",,,
+Philippines,registered aircraft,1,"['PH', 'PHL']",['RP'],['C0001-C9999'],"^(RP)(-{0,1}(C[0-9]{3}[1-9])){0,1}$",,,
+Philippines,gliders,1,"['PH', 'PHL']",['RP'],['G0001-G9999'],"^(RP)(-{0,1}(G[0-9]{3}[1-9])){0,1}$",,,
+Philippines,limited,1,"['PH', 'PHL']",['RP'],['R0001-R9999'],"^(RP)(-{0,1}(R[0-9]{3}[1-9])){0,1}$",,,
+Philippines,unmanned,1,"['PH', 'PHL']",['RP'],['U001A-U999Z'],"^(RP)(-{0,1}(U[0-9][0-9][1-9][A-Z])){0,1}$",,,
+Philippines,experimental,1,"['PH', 'PHL']",['RP'],['X0001-X9999'],"^(RP)(-{0,1}(X[0-9]{3}[1-9])){0,1}$",,,
+Poland,general,0,"['PL', 'POL']","['HF', 'SN', 'SO', 'SP', 'SQ', 'SR', '3Z']",['AAA-ZZZ'],"^(HF|SN|SO|SP|SQ|SR|3Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",488000,48FFFF,"['488', '489', '48A', '48B', '48C', '48D', '48E', '48F']"
+Poland,motor-gliders,1,"['PL', 'POL']",['SP'],['0***'],"^(SP)(-{0,1}(0[A-Z0-9]{3})){0,1}$",,,
+Poland,gliders,1,"['PL', 'POL']",['SP'],"['1***-3***', '8***']","^(SP)(-{0,1}([1-3][A-Z0-9]{3}|8[A-Z0-9]{3})){0,1}$",,,
+Poland,balloons,1,"['PL', 'POL']",['SP'],['B**'],"^(SP)(-{0,1}(B[A-Z0-9]{2})){0,1}$",,,
+Poland,Polish airlines,1,"['PL', 'POL']",['SP'],['L**'],"^(SP)(-{0,1}(L[A-Z0-9]{2})){0,1}$",,,
+Poland,ultralights,1,"['PL', 'POL']",['SP'],['S***'],"^(SP)(-{0,1}(S[A-Z0-9]{3})){0,1}$",,,
+Poland,autogyros,1,"['PL', 'POL']",['SP'],['X***'],"^(SP)(-{0,1}(X[A-Z0-9]{3})){0,1}$",,,
+Poland,experimental,1,"['PL', 'POL']",['SP'],['Y**'],"^(SP)(-{0,1}(Y[A-Z0-9]{2})){0,1}$",,,
+Poland,police,1,"['PL', 'POL']",['SN'],"['**XP', 'VP*']","^(SN)(-{0,1}([A-Z0-9]|[A-Z0-9]|X|P|VP[A-Z0-9])){0,1}$",,,
+Poland,border guard,1,"['PL', 'POL']",['SN'],"['**YG', 'VS*']","^(SN)(-{0,1}([A-Z0-9]|[A-Z0-9]|Y|G|VS[A-Z0-9])){0,1}$",,,
+Portugal,general,0,"['PT', 'PRT']","['CQ', 'CR', 'CS', 'CT', 'CU']",['AAA-ZZZ'],"^(CQ|CR|CS|CT|CU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",490000,497FFF,"['490', '491', '492', '493', '494', '495', '496', '497']"
+Portugal,airlines,1,"['PT', 'PRT']",['CS'],['T**'],"^(CS)(-{0,1}(T[A-Z0-9]{2})){0,1}$",,,
+Portugal,helicopters,1,"['PT', 'PRT']",['CS'],['H**'],"^(CS)(-{0,1}(H[A-Z0-9]{2})){0,1}$",,,
+Portugal,experimental,1,"['PT', 'PRT']",['CS'],['X**'],"^(CS)(-{0,1}(X[A-Z0-9]{2})){0,1}$",,,
+Portugal,ultralights,1,"['PT', 'PRT']",['CS'],['U**'],"^(CS)(-{0,1}(U[A-Z0-9]{2})){0,1}$",,,
+Portugal,gliders,1,"['PT', 'PRT']",['CS'],['P**'],"^(CS)(-{0,1}(P[A-Z0-9]{2})){0,1}$",,,
+Portugal,balloons,1,"['PT', 'PRT']",['CS'],['B**'],"^(CS)(-{0,1}(B[A-Z0-9]{2})){0,1}$",,,
+Qatar,general,0,"['QA', 'QAT']",['A7'],['AAA-ZZZ'],"^(A7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",06A000,06A3FF,"['06A0', '06A1', '06A2', '06A3']"
+Qatar,official,1,"['QA', 'QAT']",['A7'],"['HAA-HZZ', 'MAA-MZZ']","^(A7)(-{0,1}(H[A-Z]{2}|M[A-Z]{2})){0,1}$",,,
+Reunion Island,general,2,"['RE', 'REU']",['F-OD'],['AA-ZZ'],"^(F-OD)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Romania,general,0,"['RO', 'ROU']","['YO', 'YP', 'YQ', 'YR']",['AAA-ZZZ'],"^(YO|YP|YQ|YR)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4A0000,4A7FFF,"['4A0', '4A1', '4A2', '4A3', '4A4', '4A5', '4A6', '4A7']"
+Romania,gliders and ultralights,1,"['RO', 'ROU']",['YR'],['AAA-ZZZ'],"^(YR)(-{0,1}([A-Z]{3})){0,1}$",,,
+Romania,drones,1,"['RO', 'ROU']",['YR'],['D0000-D9999'],"^(YR)(-{0,1}(D[0-9]{4})){0,1}$",,,
+Russia,general,0,"['RU', 'RUS']","['R', 'RA', 'RF', 'UA', 'UB', 'UC', 'UD', 'UE', 'UF', 'UG', 'UH', 'UI']","['00001-99999', '0001K-9999K', '0001G-9999G', '0001A-9999A']","^(R|RA|RF|UA|UB|UC|UD|UE|UF|UG|UH|UI)(-{0,1}(([0-9]{4}[1-9]|[0-9]{3}[1-9]K|[0-9]{3}[1-9]G|[0-9]{3}[1-9]A)|[A-Z0-9]{1,4})){0,1}$",100000,1FFFFF,['1']
+Rwanda,general,0,"['RW', 'RWA']",['9XR'],['AA-ZZ'],"^(9XR)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",06E000,06EFFF,['06E']
+Saint Helena,general,0,"['SH', 'SHN']",['VQ-H'],['AA-ZZ'],"^(VQ-H)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Saint Kitts and Nevis,general,0,"['KN', 'KNA']",['V4'],['AAA-ZZZ'],"^(V4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Saint Lucia,general,0,"['LC', 'LCA']",['J6'],['AAA-ZZZ'],"^(J6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",C8C000,C8C3FF,"['C8C0', 'C8C1', 'C8C2', 'C8C3']"
+Saint Vincent and the Grenadines,general,0,"['VC', 'VCT']",['J8'],['AAA-ZZZ'],"^(J8)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Samoa,general,0,"['WS', 'WSM']",['5W'],['AAA-ZZZ'],"^(5W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",902000,9023FF,"['9020', '9021', '9022', '9023']"
+San Marino,general,0,"['SM', 'SMR']",['T7'],['AAA-ZZZ'],"^(T7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",500000,5003FF,"['5000', '5001', '5002', '5003']"
+San Marino,microlights,1,"['SM', 'SMR']",['T7'],['001-999'],"^(T7)(-{0,1}([0-9][0-9][1-9])){0,1}$",,,
+Sao Tome and Principe,general,0,"['ST', 'STP']",['S9'],['AAA-ZZZ'],"^(S9)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Saudi Arabia,general,0,"['SA', 'SAU']","['HZ', '7Z', '8Z']","['AAA-ZZZ', 'AA1-ZZ99', 'AAA1-ZZZ99', 'AAAA-ZZZZ']","^(HZ|7Z|8Z)(-{0,1}(([A-Z]{3}|[A-Z]{2}[1-9][0-9]{0,1}|[A-Z]{3}[1-9][0-9]{0,1}|[A-Z]{4})|[A-Z0-9]{1,4})){0,1}$",710000,717FFF,"['710', '711', '712', '713', '714', '715', '716', '717']"
+Senegal,general,0,"['SN', 'SEN']","['6V', '6W']",['AAA-ZZZ'],"^(6V|6W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",070000,070FFF,['070']
+Serbia,general,0,"['RS', 'SRB']","['YT', 'YU']",['AAA-ZZZ'],"^(YT|YU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Serbia,gliders,1,"['RS', 'SRB']","['YT', 'YU']",['0000-9999'],"^(YT|YU)(-{0,1}([0-9]{4})){0,1}$",,,
+Serbia,ultralights,1,"['RS', 'SRB']","['YT', 'YU']",['A000-Z999'],"^(YT|YU)(-{0,1}([A-Z][0-9]{3})){0,1}$",,,
+Serbia,drones,1,"['RS', 'SRB']","['YT', 'YU']",['D0000-D9999'],"^(YT|YU)(-{0,1}(D[0-9]{4})){0,1}$",,,
+Seychelles,general,0,"['SC', 'SYC']",['S7'],['AAA-ZZZ'],"^(S7)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",074000,0743FF,"['0740', '0741', '0742', '0743']"
+Sierra Leone,general,0,"['SL', 'SLE']",['9L'],['AAA-ZZZ'],"^(9L)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",076000,0763FF,"['0760', '0761', '0762', '0763']"
+Singapore,general,0,"['SG', 'SGP']","['9V', 'S6']",['AAA-ZZZ'],"^(9V|S6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",768000,76FFFF,"['768', '769', '76A', '76B', '76C', '76D', '76E', '76F']"
+Slovakia,general,0,"['SK', 'SVK']",['OM'],['AAA-ZZZ'],"^(OM)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",505C00,505FFF,"['505C', '505D', '505E', '505F']"
+Slovakia,ultralights,1,"['SK', 'SVK']",['OM'],['AAAA-ZZZZ'],"^(OM)(-{0,1}([A-Z]{4})){0,1}$",,,
+Slovakia,microlights,1,"['SK', 'SVK']",['OM'],['M000-M999'],"^(OM)(-{0,1}(M[0-9]{3})){0,1}$",,,
+Slovakia,gliders,1,"['SK', 'SVK']",['OM'],['0000-9999'],"^(OM)(-{0,1}([0-9]{4})){0,1}$",,,
+Slovenia,general,0,"['SI', 'SVN']",['S5'],"['AAA-9999', 'DAA-DZZ']","^(S5)(-{0,1}(([A-Z0-9]{3}[0-9]{0,1}|D[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",506C00,506FFF,"['506C', '506D', '506E', '506F']"
+Slovenia,helicopters,1,"['SI', 'SVN']",['S5'],['HAA-HZZ'],"^(S5)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Slovenia,ultralights,1,"['SI', 'SVN']",['S5'],['PAA-PZZ'],"^(S5)(-{0,1}(P[A-Z]{2})){0,1}$",,,
+Slovenia,amature builds,1,"['SI', 'SVN']",['S5'],['MAA-MZZ'],"^(S5)(-{0,1}(M[A-Z]{2})){0,1}$",,,
+Slovenia,gyrocopters,1,"['SI', 'SVN']",['S5'],['JAA-JZZ'],"^(S5)(-{0,1}(J[A-Z]{2})){0,1}$",,,
+Slovenia,oldtimer gliders,1,"['SI', 'SVN']",['S5'],['1000-1999'],"^(S5)(-{0,1}(1[0-9]{3})){0,1}$",,,
+Slovenia,single-seat gliders,1,"['SI', 'SVN']",['S5'],['3000-3999'],"^(S5)(-{0,1}(3[0-9]{3})){0,1}$",,,
+Slovenia,double-seat gliders,1,"['SI', 'SVN']",['S5'],['7000-7999'],"^(S5)(-{0,1}(7[0-9]{3})){0,1}$",,,
+Slovenia,motorgliders,1,"['SI', 'SVN']",['S5'],['KAA-KZZ'],"^(S5)(-{0,1}(K[A-Z]{2})){0,1}$",,,
+Slovenia,balloons,1,"['SI', 'SVN']",['S5'],['OAA-OZZ'],"^(S5)(-{0,1}(O[A-Z]{2})){0,1}$",,,
+Solomon Islands,general,0,"['SB', 'SLB']",['H4'],['AAA-ZZZ'],"^(H4)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",897000,8973FF,"['8970', '8971', '8972', '8973']"
+Somalia,general,0,"['SO', 'SOM']","['6O', 'T5']",['AAA-ZZZ'],"^(6O|T5)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",078000,078FFF,['078']
+South Africa,general,0,"['ZA', 'ZAF']","['S8', 'ZR', 'ZS', 'ZT', 'ZU']",['AAA-ZZZ'],"^(S8|ZR|ZS|ZT|ZU)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",008000,00FFFF,"['008', '009', '00A', '00B', '00C', '00D', '00E', '00F']"
+South Sudan,general,0,"['SS', 'SSD']",['Z8'],['AAA-ZZZ'],"^(Z8)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Spain,general,0,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['AAA-WZZ'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}(([A-W][A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",340000,37FFFF,"['34', '35', '36', '37']"
+Spain,amature builds,1,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['YAA-ZZZ'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}([Y-Z][A-Z]{2})){0,1}$",,,
+Spain,ultralights,1,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['AA0-ZZ9'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}([A-Z]{2}[0-9])){0,1}$",,,
+Spain,test and delivery,1,"['ES', 'ESP']","['AM', 'AN', 'AO', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH']",['001-999'],"^(AM|AN|AO|EA|EB|EC|ED|EE|EF|EG|EH)(-{0,1}([0-9][0-9][1-9])){0,1}$",,,
+Sri Lanka,general,0,"['LK', 'LKA']","['4P', '4Q', '4R', '4S']",['AAA-ZZZ'],"^(4P|4Q|4R|4S)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",770000,777FFF,"['770', '771', '772', '773', '774', '775', '776', '777']"
+Sudan,general,0,"['SD', 'SDN']","['SSN', 'SSM', 'SSO', 'SSP', 'SSQ', 'SSR', 'SSS', 'SST', 'SSU', 'SSW', 'SSX', 'SSY', 'SSZ', 'STA', 'STB', 'STC', 'STD', 'STE', 'STF', 'STG', 'STH', 'STI', 'STJ', 'STK', 'STL', 'STM', 'STN', 'STO', 'STP', 'STQ', 'STR', 'STS', 'STT', 'STU', 'STV', 'STW', 'STX', 'STY', 'STZ', '6T', '6U']",['AAA-ZZZ'],"^(SSN|SSM|SSO|SSP|SSQ|SSR|SSS|SST|SSU|SSW|SSX|SSY|SSZ|STA|STB|STC|STD|STE|STF|STG|STH|STI|STJ|STK|STL|STM|STN|STO|STP|STQ|STR|STS|STT|STU|STV|STW|STX|STY|STZ|6T|6U)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",07C000,07CFFF,['07C']
+Suriname,general,0,"['SR', 'SUR']",['PZ'],['AAA-ZZZ'],"^(PZ)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0C8000,0C8FFF,['0C8']
+Suriname,helicopters,1,"['SR', 'SUR']",['PZ'],['HAA-HZZ'],"^(PZ)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Suriname,commercial,1,"['SR', 'SUR']",['PZ'],['TAA-TZZ'],"^(PZ)(-{0,1}(T[A-Z]{2})){0,1}$",,,
+Suriname,agricultural,1,"['SR', 'SUR']",['PZ'],['UAA-UZZ'],"^(PZ)(-{0,1}(U[A-Z]{2})){0,1}$",,,
+Swaziland or Eswatini,general,0,"['SZ', 'SWZ']","['3D', '3DA', '3DB', '3DC', '3DD', '3DE', '3DF', '3DG', '3DH', '3DI', '3DJ', '3DK', '3DL', '3DM']",['AAA-ZZZ'],"^(3D|3DA|3DB|3DC|3DD|3DE|3DF|3DG|3DH|3DI|3DJ|3DK|3DL|3DM)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Sweden,general,0,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['AAA-ZZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4A8000,4AFFFF,"['4A8', '4A9', '4AA', '4AB', '4AC', '4AD', '4AE', '4AF']"
+Sweden,jets,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']","['DAA-DZZ', 'RAA-RZZ']","^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(D[A-Z]{2}|R[A-Z]{2})){0,1}$",,,
+Sweden,helicopters,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['HAA-HZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Sweden,gliders,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['SAA-UZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}([S-U][A-Z]{2})){0,1}$",,,
+Sweden,ultralights,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']","['VAA-VZZ', 'YAA-YZZ']","^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(V[A-Z]{2}|Y[A-Z]{2})){0,1}$",,,
+Sweden,amuture builds,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['XAA-XZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(X[A-Z]{2})){0,1}$",,,
+Sweden,lighter than air,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['ZAA-ZZZ'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}(Z[A-Z]{2})){0,1}$",,,
+Sweden,test and delivery,1,"['SE', 'SWE']","['SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SI', 'SJ', 'SK', 'SL', 'SM', '7S', '8S']",['A01-Z99'],"^(SA|SB|SC|SD|SE|SF|SG|SH|SI|SJ|SK|SL|SM|7S|8S)(-{0,1}([A-Z][0-9][1-9])){0,1}$",,,
+Switzerland,general,0,"['CH', 'CHE']","['HB', 'HE']",['AAA-ZZZ'],"^(HB|HE)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4B0000,4B7FFF,"['4B0', '4B1', '4B2', '4B3', '4B4', '4B5', '4B6', '4B7']"
+Syria,general,0,"['SY', 'SYR']","['YK', '6C']",['AAA-ZZZ'],"^(YK|6C)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",778000,77FFFF,"['778', '779', '77A', '77B', '77C', '77D', '77E', '77F']"
+Tahiti or French Polynesia,general,2,"['PF', 'PYF']",['F-OH'],['AA-ZZ'],"^(F-OH)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Taiwan,general,0,"['TW', 'TWN']","['B', 'BM', 'BN', 'BO', 'BQ', 'BV', 'BX']",['00000-99999'],"^(B|BM|BN|BO|BQ|BV|BX)(-{0,1}(([0-9]{5})|[A-Z0-9]{1,4})){0,1}$",,,
+Tajikistan,general,0,"['TJ', 'TJK']",['EY'],['00000-99999'],"^(EY)(-{0,1}(([0-9]{5})|[A-Z0-9]{1,4})){0,1}$",515000,5153FF,"['5150', '5151', '5152', '5153']"
+Tanzania,general,0,"['TZ', 'TZA']","['5H', '5I']",['AAA-ZZZ'],"^(5H|5I)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",080000,080FFF,['080']
+Thailand,general,0,"['TH', 'THA']","['E2', 'HS']",['AAA-ZZZ'],"^(E2|HS)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",880000,887FFF,"['880', '881', '882', '883', '884', '885', '886', '887']"
+Timor–Leste,general,0,"['TL', 'TLS']",['4W'],['AAA-ZZZ'],"^(4W)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Togo,general,0,"['TG', 'TGO']",['5V'],['AAA-ZZZ'],"^(5V)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",088000,088FFF,['088']
+Tonga,general,0,"['TO', 'TON']",['A3'],['AAA-ZZZ'],"^(A3)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",C8D000,C8D3FF,"['C8D0', 'C8D1', 'C8D2', 'C8D3']"
+Trinidad and Tobago,general,0,"['TT', 'TTO']","['9Y', '9Z']",['AAA-ZZZ'],"^(9Y|9Z)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",0C6000,0C6FFF,['0C6']
+Tunisia,general,0,"['TN', 'TUN']","['TS', '3V']",['AAA-ZZZ'],"^(TS|3V)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",028000,02FFFF,"['028', '029', '02A', '02B', '02C', '02D', '02E', '02F']"
+Turkey,general,0,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['AAA-ZZZ'],"^(TA|TB|TC|YM)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",4B8000,4BFFFF,"['4B8', '4B9', '4BA', '4BB', '4BC', '4BD', '4BE', '4BF']"
+Turkey,balloons,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['BAA-BZZ'],"^(TA|TB|TC|YM)(-{0,1}(B[A-Z]{2})){0,1}$",,,
+Turkey,helicopters,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['HAA-HZZ'],"^(TA|TB|TC|YM)(-{0,1}(H[A-Z]{2})){0,1}$",,,
+Turkey,gliders,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['PAA-PZZ'],"^(TA|TB|TC|YM)(-{0,1}(P[A-Z]{2})){0,1}$",,,
+Turkey,ultralights,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['UAA-UZZ'],"^(TA|TB|TC|YM)(-{0,1}(U[A-Z]{2})){0,1}$",,,
+Turkey,agricultural,1,"['TR', 'TUR']","['TA', 'TB', 'TC', 'YM']",['ZAA-ZZZ'],"^(TA|TB|TC|YM)(-{0,1}(Z[A-Z]{2})){0,1}$",,,
+Turkmenistan,general,0,"['TM', 'TKM']",['EZ'],['A100-Z999'],"^(EZ)(-{0,1}(([A-Z][1-9][0-9][0-9])|[A-Z0-9]{1,4})){0,1}$",601800,601BFF,"['6018', '6019', '601A', '601B']"
+Turks and Caicos Islands,general,0,"['TC', 'TCA']",['VQ-T'],['AA-ZZ'],"^(VQ-T)(-{0,1}([A-Z]{2}|[A-Z0-9]{1,4})){0,1}$",,,
+Tuvalu,general,0,"['TV', 'TUV']",['T2'],['AAA-ZZZ'],"^(T2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Uganda,general,0,"['UG', 'UGA']",['5X'],['AAA-ZZZ'],"^(5X)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",068000,068FFF,['068']
+Ukraine,general,0,"['UA', 'UKR']","['EM', 'EN', 'EO', 'UR', 'US', 'UT', 'UU', 'UV', 'UW', 'UX', 'UY', 'UZ']","['AAA-ZZZ', '10000-99999', 'AAAA-ZZZZ']","^(EM|EN|EO|UR|US|UT|UU|UV|UW|UX|UY|UZ)(-{0,1}(([A-Z]{3}|[1-9][0-9]{4}|[A-Z]{4})|[A-Z0-9]{1,4})){0,1}$",508000,50FFFF,"['508', '509', '50A', '50B', '50C', '50D', '50E', '50F']"
+United Arab Emirates,general,0,"['AE', 'ARE']",['A6'],['AAA-ZZZ'],"^(A6)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",896000,896FFF,['896']
+United Kingdom,general,0,"['GB', 'GBR']","['2', 'G', 'M', 'VP', 'VQ', 'VS', 'ZB', 'ZC', 'ZD', 'ZE', 'ZF', 'ZG', 'ZH', 'ZI', 'ZJ', 'ZN', 'ZO', 'ZQ']",['AAAA-ZZZZ'],"^(2|G|M|VP|VQ|VS|ZB|ZC|ZD|ZE|ZF|ZG|ZH|ZI|ZJ|ZN|ZO|ZQ)(-{0,1}([A-Z]{4}|[A-Z0-9]{1,4})){0,1}$",400000,43FFFF,"['40', '41', '42', '43']"
+United States,general,0,"['US', 'USA']","['AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'K', 'N', 'W']","['1-99999', '1A-9999Z', '1AA-999ZZ']","^(AA|AB|AC|AD|AE|AF|AG|AH|AI|AJ|AK|AL|K|N|W)(-{0,1}(([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})|[A-Z0-9]{1,4})){0,1}$",A00000,AFFFFF,['A']
+United States,commercial and private,1,"['US', 'USA']",['NC'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NC)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$",,,
+United States,gliders,1,"['US', 'USA']",['NG'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NG)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$",,,
+United States,limited,1,"['US', 'USA']",['NL'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NL)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$",,,
+United States,restricte,1,"['US', 'USA']",['NR'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NR)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$",,,
+United States,state,1,"['US', 'USA']",['NS'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NS)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$",,,
+United States,experimental,1,"['US', 'USA']",['NX'],"['1-99999', '1A-9999Z', '1AA-999ZZ']","^(NX)(-{0,1}([1-9][0-9]{0,4}|[1-9][0-9]{0,3}[A-Z]|[1-9][0-9]{0,2}[A-Z]{2})){0,1}$",,,
+Uruguay,general,0,"['UY', 'URY']","['CV', 'CW', 'CX']",['AAA-ZZZ'],"^(CV|CW|CX)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",E90000,E90FFF,['E90']
+Uzbekistan,general,0,"['UZ', 'UZB']","['UJ', 'UK', 'UL', 'UM']",['10000-99999'],"^(UJ|UK|UL|UM)(-{0,1}(([1-9][0-9]{4})|[A-Z0-9]{1,4})){0,1}$",507C00,507FFF,"['507C', '507D', '507E', '507F']"
+Vanuatu,general,0,"['VU', 'VUT']",['YJ'],['AA1-ZZ99'],"^(YJ)(-{0,1}(([A-Z]{2}[1-9][0-9]{0,1})|[A-Z0-9]{1,4})){0,1}$",C90000,C903FF,"['C900', 'C901', 'C902', 'C903']"
+Vatican City,general,0,"['VA', 'VAT']",['HV'],['AAA-ZZZ'],"^(HV)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",,,
+Venezuela,general,0,"['VE', 'VEN']","['YV', 'YW', 'YX', 'YY', '4M']","['1000-9999', '100T-999T']","^(YV|YW|YX|YY|4M)(-{0,1}(([1-9][0-9]{3}|[1-9][0-9][0-9]T)|[A-Z0-9]{1,4})){0,1}$",0D8000,0DFFFF,"['0D8', '0D9', '0DA', '0DB', '0DC', '0DD', '0DE', '0DF']"
+Venezuela,training,1,"['VE', 'VEN']","['YV', 'YW', 'YX', 'YY', '4M']",['100E-999E'],"^(YV|YW|YX|YY|4M)(-{0,1}([1-9][0-9][0-9]E)){0,1}$",,,
+Venezuela,official,1,"['VE', 'VEN']","['YV', 'YW', 'YX', 'YY', '4M']",['O100-O999'],"^(YV|YW|YX|YY|4M)(-{0,1}(O[1-9][0-9][0-9])){0,1}$",,,
+Vietnam,general,0,"['VN', 'VNM']","['XV', '3W']",['1000-9999'],"^(XV|3W)(-{0,1}(([1-9][0-9]{3})|[A-Z0-9]{1,4})){0,1}$",,,
+Vietnam,turbo jet engine,1,"['VN', 'VNM']","['XV', '3W']",['A100-A999'],"^(XV|3W)(-{0,1}(A[1-9][0-9][0-9])){0,1}$",,,
+Vietnam,turbo prop engine,1,"['VN', 'VNM']","['XV', '3W']",['B100-B999'],"^(XV|3W)(-{0,1}(B[1-9][0-9][0-9])){0,1}$",,,
+Vietnam,combustion engine,1,"['VN', 'VNM']","['XV', '3W']",['C100-C999'],"^(XV|3W)(-{0,1}(C[1-9][0-9][0-9])){0,1}$",,,
+Yemen,general,0,"['YE', 'YEM']",['7O'],['AAA-ZZZ'],"^(7O)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",890000,890FFF,['890']
+Zambia,general,0,"['ZM', 'ZMB']","['9I', '9J']",['AAA-ZZZ'],"^(9I|9J)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",08A000,08AFFF,['08A']
+Zimbabwe,general,0,"['ZW', 'ZWE']","['Z', 'Z2']",['AAA-ZZZ'],"^(Z|Z2)(-{0,1}([A-Z]{3}|[A-Z0-9]{1,4})){0,1}$",004000,0043FF,"['0040', '0041', '0042', '0043']"
