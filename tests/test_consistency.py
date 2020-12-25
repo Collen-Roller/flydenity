@@ -1,5 +1,6 @@
 import unittest
 import re
+import json
 
 from flydenity.parser import ARParser
 
@@ -47,7 +48,7 @@ class TestParse(unittest.TestCase):
         """A valid registration (callsign + suffix) must match with the given regex."""
 
         is_broken = False
-        overlappings = set()
+        overlapping_datasets = set()
         for datasets in self.parser.callsigns.values():
             for dataset in datasets:
                 registrations = []
@@ -67,18 +68,20 @@ class TestParse(unittest.TestCase):
                         print(f"registration '{registration}' does not fit into regex '{dataset['regex']}'")
                         is_broken = True
 
-                # registration should no be valid for other countries
+                # check country dependant registrations ...
                 if 'iso2' not in dataset:
                     continue
 
+                # ... and find non unique matches
                 for registration in registrations:
-                    for other_dataset in self.parser.parse(registration):
-                        if 'iso2' in other_dataset and other_dataset['iso2'] != dataset['iso2']:
-                            overlappings.add(str(sorted((dataset['iso2'], other_dataset['iso2']))))
+                    other_datasets = [other_dataset for other_dataset in self.parser._parse_registration(registration, strict=True) if other_dataset != dataset]
+                    if len(other_datasets) > 1:
+                        for other_dataset in other_datasets:
+                            overlapping_datasets.add(json.dumps([self.parser._data_to_result(dataset), self.parser._data_to_result(other_dataset)]))
                             is_broken = True
 
-        for overlapping in overlappings:
-            (iso2_1, iso2_2) = overlapping[1:-1].split(', ')
-            print(f"overlapping found: {iso2_1} vs. {iso2_2}")
+        for overlapping in overlapping_datasets:
+            dataset, other_dataset = json.loads(overlapping)
+            print(f"overlapping matches found: {dataset} vs. {other_dataset}")
 
-        self.assertFalse(is_broken, "We found bad suffixes not matching with the regex or not unique in iso2.")
+        self.assertFalse(is_broken, "We found bad suffixes not matching with the regex or not unique matches.")

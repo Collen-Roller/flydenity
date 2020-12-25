@@ -103,13 +103,10 @@ class ARParser():
                 else:
                     matches_by_priority[data['priority']].append(data)
 
-        # from all matches we found return the match with the highest priority
+        # from all matches we found return the match(es) with the highest priority
         if len(matches_by_priority) > 0:
             best_matches = matches_by_priority[max(matches_by_priority.keys())]
-            if len(best_matches) > 1:
-                print(f"Warning: multiple matches with same priority found")
-
-            return self._data_to_result(best_matches[0])
+            return best_matches
 
         # return None if the string doesn't match with any of the datasets
         else:
@@ -121,15 +118,20 @@ class ARParser():
             print(f"Warning: ICAO 24bit must be hexadecimal with length of 6 chars")
             return None
 
-        # return the match (there is at most one)
+        # return the matches
+        matches = []
         for prefix in [string[0:i+1] for i in range(len(string))]:
             if prefix in self.icao24bit:
-                return self._data_to_result(self.icao24bit[prefix])
+                matches.append(self.icao24bit[prefix])
 
-        return None
+        return matches if len(matches) > 0 else None
 
     def parse(self, string, strict=False, icao24bit=False):
         if icao24bit is False:
-            return self._parse_registration(string, strict)
+            matches = self._parse_registration(string, strict)
+            if matches:
+                return self._data_to_result(matches[0])
         else:
-            return self._parse_icao24bit(string, strict)
+            matches = self._parse_icao24bit(string, strict)
+            if matches:
+                return self._data_to_result(matches[0])
