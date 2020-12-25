@@ -2,12 +2,12 @@ import unittest
 import re
 import json
 
-from flydenity.parser import ARParser
+from flydenity import Parser
 
 
-class TestParse(unittest.TestCase):
+class TestParseConsistency(unittest.TestCase):
     def setUp(self):
-        self.parser = ARParser()
+        self.parser = Parser()
 
     def test_general_available_for_country(self):
         """Every country must have 'general' data."""
@@ -85,3 +85,19 @@ class TestParse(unittest.TestCase):
             print(f"overlapping matches found: {dataset} vs. {other_dataset}")
 
         self.assertFalse(is_broken, "We found bad suffixes not matching with the regex or not unique matches.")
+
+    def test_icao24bit_registration(self):
+        """ICAO 24bit registrations must match with on result only."""
+
+        is_broken = False
+        for i in range(0, int('FFFFFF', 16), 32):
+            icao24bit = f"{i:06X}"
+            matches = self.parser._parse_icao24bit(icao24bit, strict=True)
+            if matches and len(matches) > 1:
+                print(f"{icao24bit} -> {matches}")
+                is_broken = True
+
+        self.assertFalse(is_broken, "We found ICAO 24bit registrations with multiple matches")
+
+if __name__ == '__main__':
+    unittest.main()

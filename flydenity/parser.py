@@ -19,7 +19,7 @@ DATASET_FILES = {
 }
 
 
-class ARParser():
+class Parser():
     def __init__(self):
         # read the input files into mappings:
         self.callsigns = {}     # the callsign mapping: callsign -> [data1, data2, ...]

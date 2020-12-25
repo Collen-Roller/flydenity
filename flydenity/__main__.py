@@ -7,17 +7,15 @@ Creates the CLI application for Flydenity
 """
 
 import sys
-import json
+from flydenity import Parser
+
 
 def main():
-    """Main of CLI app
-    """
-    from flydenity import parser
+    """Main of CLI app"""
 
-    parser = parser.ARParser()
-    for tail in sys.argv[1:]:
-        #print("%s: %s" % (tail,parser.parse(tail)))
-        print({tail:parser.parse(tail)})
+    parser = Parser()
+    print({arg: parser.parse(arg) for arg in sys.argv[1:]})
+
 
 if __name__ == "__main__":
     main()

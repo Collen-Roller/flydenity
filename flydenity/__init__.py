@@ -5,3 +5,5 @@ collen.roller@gmail.com
 
 Init the project
 """
+
+from .parser import Parser

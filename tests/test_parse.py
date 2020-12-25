@@ -1,11 +1,10 @@
 import unittest
 
-from flydenity.parser import ARParser
-
+from flydenity import Parser
 
 class TestParse(unittest.TestCase):
     def setUp(self):
-        self.parser = ARParser()
+        self.parser = Parser()
 
     def test_parse_simple(self):
         match = self.parser.parse('D-1234')

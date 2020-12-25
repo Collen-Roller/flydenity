@@ -34,16 +34,18 @@ Flydenity is on PyPi, simply install it with PIP
 To run, you can simply include it in your python library using the following
 
   ```python
-  from flydenity import parser
-  identifer = parser.ARParser()
-  nation_of_origin = ["AF1234"]
+  >>> from flydenity import Parser
+  >>> parser = Parser()
+  >>> parser.parse("AF1234")
+  {'nation': 'United States', 'description': 'general', 'iso2': 'US', 'iso3': 'USA'}
   ```
 
-You can also run it from the command line
+You can also run it from the command line (multiple arguments allowed)
 
   ```bash
-  $ flydenity AF1234
-  {'AF1234': [{'nation': 'United States', 'description': 'general', 'iso2': 'US', 'iso3': 'USA'}]}
+  $ python -m flydenity AF1234 D-1234
+  {'AF1234': {'nation': 'United States', 'description': 'general', 'iso2': 'US', 'iso3': 'USA'},
+   'D-1234': {'nation': 'Germany', 'description': 'gliders', 'iso2': 'DE', 'iso3': 'DEU'}}
   ```
 
 ## Stats
