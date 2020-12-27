@@ -22,8 +22,8 @@ DATASET_FILES = {
 class Parser:
     def __init__(self):
         # read the input files into mappings:
-        self.callsigns = {}     # the callsign mapping: callsign -> [data1, data2, ...]
-        self.icao24bit = {}     # the icao24bit mapping: icao24bit_prefix -> data
+        self.callsigns = {}  # the callsign mapping: callsign -> [data1, data2, ...]
+        self.icao24bit = {}  # the icao24bit mapping: icao24bit_prefix -> data
         for dataset_type in DATASET_FILES:
             with open(os.path.join(CURRENT_PATH, DATASET_FILES[dataset_type])) as csvfile:
                 csvreader = csv.reader(csvfile)
@@ -70,17 +70,9 @@ class Parser:
 
     def _data_to_result(self, data):
         if data["type"] == "country":
-            return {
-                "nation": data["nation"],
-                "description": data["description"],
-                "iso2": data["iso2"],
-                "iso3": data["iso3"]
-            }
+            return {"nation": data["nation"], "description": data["description"], "iso2": data["iso2"], "iso3": data["iso3"]}
         elif data["type"] == "organization":
-            return {
-                "name": data["name"],
-                "description": data["description"]
-            }
+            return {"name": data["name"], "description": data["description"]}
 
     def _parse_registration(self, string, strict):
         # find the datasets matching with the string
@@ -115,12 +107,12 @@ class Parser:
     def _parse_icao24bit(self, string, strict):
         # check if input is correct
         if strict and not re.match("[0-9A-F]{6}", string):
-            print(f"Warning: ICAO 24bit must be hexadecimal with length of 6 chars")
+            print(f"Warning: ICAO 24bit '{string}' must be hexadecimal with length of 6 chars")
             return None
 
         # return the matches
         matches = []
-        for prefix in [string[0:i + 1] for i in range(len(string))]:
+        for prefix in [string[0 : i + 1] for i in range(len(string))]:
             if prefix in self.icao24bit:
                 matches.append(self.icao24bit[prefix])
 

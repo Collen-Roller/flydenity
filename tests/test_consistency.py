@@ -55,7 +55,7 @@ class TestParseConsistency(unittest.TestCase):
                 for callsign in dataset["callsigns"]:
                     for suffix in dataset["suffixes"]:
                         if re.match(r"^([A-Z0-9]+)(\-[A-Z0-9]+)?$", suffix) is None:
-                            continue    # suffix is broken... already tested above
+                            continue  # suffix is broken... already tested above
 
                         if "-" in suffix:
                             registrations.extend([f"{callsign}-{suffix}" for suffix in suffix.split("-")])

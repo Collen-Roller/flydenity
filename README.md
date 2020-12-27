@@ -4,6 +4,7 @@
 
 # <div align="center">Flydenity<br /><br />
 
+[![GitHub Super-Linter](https://github.com/Collen-Roller/flydenity/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![PyPI version](https://badge.fury.io/py/flydenity.svg)](https://badge.fury.io/py/flydenity)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/flydenity/)
