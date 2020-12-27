@@ -7,6 +7,7 @@ Creates the CLI application for Flydenity
 """
 
 import sys
+
 from flydenity import Parser
 
 

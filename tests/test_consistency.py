@@ -1,6 +1,6 @@
-import unittest
-import re
 import json
+import re
+import unittest
 
 from flydenity import Parser
 

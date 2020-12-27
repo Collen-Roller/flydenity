@@ -7,10 +7,9 @@ collen.roller@gmail.com
 Main parser for Regexs that exist within the dataset
 """
 
+import csv
 import os
 import re
-import csv
-
 
 CURRENT_PATH = os.path.dirname(__file__)
 DATASET_FILES = {

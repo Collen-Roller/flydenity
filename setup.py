@@ -1,7 +1,7 @@
-from setuptools import setup, find_packages
-from os import path
-from os import getenv
+from os import getenv, path
+
 from dotenv import load_dotenv
+from setuptools import find_packages, setup
 
 load_dotenv()
 
