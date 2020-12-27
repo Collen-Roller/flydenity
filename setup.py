@@ -1,7 +1,4 @@
 from setuptools import setup, find_packages
-from setuptools.command.test import test as TestCommand
-import sys
-from glob import glob
 from os import path
 from os import getenv
 from dotenv import load_dotenv
@@ -15,8 +12,8 @@ with open(path.join(path.dirname(path.abspath(__file__)),
                     "requirements.txt")) as requirement_file:
     install_requirements = requirement_file.read().split("/n")
 
-name = 'flydenity'
-version = getenv('VERSION')
+name = "flydenity"
+version = getenv("VERSION")
 release = version
 
 setup(
@@ -27,22 +24,24 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Collen-Roller/arp",
-    author='Collen Roller',
-    author_email='collen.roller@gmail.com',
+    author="Collen Roller",
+    author_email="collen.roller@gmail.com",
     classifiers=[
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    keywords=['aircraft', 'planes', 'registration', 'callsign', 'prefix',
-    'aircraft callsign', 'plane', 'air'],
+    keywords=[
+        'aircraft', 'planes', 'registration', 'callsign', 'prefix',
+        'aircraft callsign', 'plane', 'air'
+    ],
 
     packages=find_packages(),
 
-    python_requires='>=3.6', # Version of Python required to install
+    python_requires=">=3.6",    # Version of Python required to install
 
-    install_requires=install_requirements, # Install requirements
+    install_requires=install_requirements,  # Install requirements
 
     extras_require={
         "dev": ['check-manifest']
@@ -53,5 +52,5 @@ setup(
             'flydenity = flydenity.__main__:main'
         ]
     },
-    include_package_data=True # Including package data (IMPORTANT)
+    include_package_data=True   # Including package data (IMPORTANT)
 )
