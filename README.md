@@ -74,18 +74,18 @@ improved, but that's why this library is open-source :)
 ## Registration Numbers
 All data was collected using open sources across the web, specifically using
 the links below.
-- https://en.wikipedia.org/wiki/Aircraft_registration
-- https://en.wikipedia.org/wiki/Call_sign
-- https://en.wikipedia.org/wiki/Airline_codes#ICAO_airline_designator
-- https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes
-- https://www.cia.gov/library/publications/the-world-factbook/fields/2270.html
-- https://en.wikipedia.org/wiki/ITU_prefix
-- http://aircraft-registration-country-codes.blogspot.com/
-- https://www.itu.int/en/ITU-R/terrestrial/fmd/Pages/call_sign_series.aspx
+- <https://en.wikipedia.org/wiki/Aircraft_registration>
+- <https://en.wikipedia.org/wiki/Call_sign>
+- <https://en.wikipedia.org/wiki/Airline_codes#ICAO_airline_designator>
+- <https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes>
+- <https://www.cia.gov/library/publications/the-world-factbook/fields/2270.html>
+- <https://en.wikipedia.org/wiki/ITU_prefix>
+- <http://aircraft-registration-country-codes.blogspot.com>
+- <https://www.itu.int/en/ITU-R/terrestrial/fmd/Pages/call_sign_series.aspx>
 
 ## Country Codes Extracted From
-- https://countrycode.org/
-- https://github.com/datasets/country-codes
+- <https://countrycode.org>
+- <https://github.com/datasets/country-codes>
 
 ## Datasets
 I constructed two datasets (as of right now) for this effort.
@@ -94,18 +94,18 @@ I constructed two datasets (as of right now) for this effort.
 
 
 ## Countries, Regions or Territories with No Standard
-#### Compared to country list at https://countrycode.org/, there are a total of that are not included
+### Compared to country list at <https://countrycode.org>, there are a total of that are not included
 Some of these countries  or regions could have a standard that is not within
 this database. Please update the list if you make changes.
 - Aland Islands (AX)
 - American Samoa (AS)
 - Antarctica(AQ)
-- Bouvet Island	(BV)
+- Bouvet Island (BV)
 - British Indian Ocean Territory (IO)
 - Christmas Island (CX)
 - Cocos (Keeling) Islands (CC)
 - Curacao (CW)
-- French Guiana	(GF)
+- French Guiana (GF)
 - French Southern Territories (TF)
 - Guadeloupe (GP)
 - Guam (GU)
@@ -131,7 +131,7 @@ this database. Please update the list if you make changes.
 - Western Sahara (EH)
 
 
-#### Contact
+### Contact
 
 Collen Roller
 collen.roller@gmail dot com
